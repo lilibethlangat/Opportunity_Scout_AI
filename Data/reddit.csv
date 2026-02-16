@@ -1,0 +1,417 @@
+Industry,Year,Daily_Mention_Density,Popularity_Level
+E-Commerce & Retail,2005,0.1172,Emerging
+E-Commerce & Retail,2006,0.1365,Emerging
+E-Commerce & Retail,2007,0.2122,Emerging
+E-Commerce & Retail,2008,0.6025,Emerging
+E-Commerce & Retail,2009,1.5256,Mainstream
+E-Commerce & Retail,2010,3.2749,Mainstream
+E-Commerce & Retail,2011,3.9796,Mainstream
+E-Commerce & Retail,2012,4.2757,Mainstream
+E-Commerce & Retail,2013,0.0,Niche
+E-Commerce & Retail,2014,0.0,Niche
+E-Commerce & Retail,2015,0.0,Niche
+E-Commerce & Retail,2016,16.9985,Viral
+E-Commerce & Retail,2017,23.3599,Viral
+E-Commerce & Retail,2018,29.3933,Viral
+E-Commerce & Retail,2019,34.3737,Viral
+E-Commerce & Retail,2020,49.1433,Viral
+Technology & Software,2005,0.2912,Emerging
+Technology & Software,2006,0.9572,Emerging
+Technology & Software,2007,0.0,Niche
+Technology & Software,2008,3.3817,Mainstream
+Technology & Software,2009,6.7046,Mainstream
+Technology & Software,2010,13.4627,Viral
+Technology & Software,2011,18.0741,Viral
+Technology & Software,2012,27.4755,Viral
+Technology & Software,2013,34.4581,Viral
+Technology & Software,2014,0.0,Niche
+Technology & Software,2015,0.0,Niche
+Technology & Software,2016,0.0,Niche
+Technology & Software,2017,4.4607,Mainstream
+Technology & Software,2018,181.9081,Viral
+Technology & Software,2019,408.0872,Viral
+Technology & Software,2020,320.5179,Viral
+Healthcare & Life Sciences,2005,0.0727,Niche
+Healthcare & Life Sciences,2006,0.0795,Niche
+Healthcare & Life Sciences,2007,0.0972,Niche
+Healthcare & Life Sciences,2008,0.145,Emerging
+Healthcare & Life Sciences,2009,0.2224,Emerging
+Healthcare & Life Sciences,2010,0.2631,Emerging
+Healthcare & Life Sciences,2011,0.0,Niche
+Healthcare & Life Sciences,2012,0.6548,Emerging
+Healthcare & Life Sciences,2013,1.524,Mainstream
+Healthcare & Life Sciences,2014,0.0,Niche
+Healthcare & Life Sciences,2015,0.0,Niche
+Healthcare & Life Sciences,2016,5.0427,Mainstream
+Healthcare & Life Sciences,2017,6.9836,Mainstream
+Healthcare & Life Sciences,2018,10.1856,Viral
+Healthcare & Life Sciences,2019,12.9283,Viral
+Healthcare & Life Sciences,2020,15.3193,Viral
+Finance & Fintech,2005,0.0457,Niche
+Finance & Fintech,2006,0.0457,Niche
+Finance & Fintech,2007,0.0457,Niche
+Finance & Fintech,2008,0.0557,Niche
+Finance & Fintech,2009,0.0569,Niche
+Finance & Fintech,2010,0.0757,Niche
+Finance & Fintech,2011,0.1328,Emerging
+Finance & Fintech,2012,0.3441,Emerging
+Finance & Fintech,2013,0.5826,Emerging
+Finance & Fintech,2014,0.0,Niche
+Finance & Fintech,2015,0.0,Niche
+Finance & Fintech,2016,5.6863,Mainstream
+Finance & Fintech,2017,11.4736,Viral
+Finance & Fintech,2018,152.2542,Viral
+Finance & Fintech,2019,83.3397,Viral
+Finance & Fintech,2020,52.5162,Viral
+Media & Entertainment,2005,0.087,Niche
+Media & Entertainment,2006,0.093,Niche
+Media & Entertainment,2007,0.1166,Emerging
+Media & Entertainment,2008,0.1646,Emerging
+Media & Entertainment,2009,0.3127,Emerging
+Media & Entertainment,2010,0.6611,Emerging
+Media & Entertainment,2011,1.595,Mainstream
+Media & Entertainment,2012,3.9247,Mainstream
+Media & Entertainment,2013,5.0422,Mainstream
+Media & Entertainment,2014,0.0,Niche
+Media & Entertainment,2015,0.0,Niche
+Media & Entertainment,2016,20.9481,Viral
+Media & Entertainment,2017,17.406,Viral
+Media & Entertainment,2018,26.6947,Viral
+Media & Entertainment,2019,35.6158,Viral
+Media & Entertainment,2020,41.6763,Viral
+Education & Training,2005,0.0745,Niche
+Education & Training,2006,0.0833,Niche
+Education & Training,2007,0.107,Emerging
+Education & Training,2008,0.1865,Emerging
+Education & Training,2009,0.3001,Emerging
+Education & Training,2010,0.845,Emerging
+Education & Training,2011,1.6909,Mainstream
+Education & Training,2012,2.8054,Mainstream
+Education & Training,2013,5.1975,Mainstream
+Education & Training,2014,0.0,Niche
+Education & Training,2015,0.0,Niche
+Education & Training,2016,11.6447,Viral
+Education & Training,2017,15.2793,Viral
+Education & Training,2018,16.6059,Viral
+Education & Training,2019,22.4622,Viral
+Education & Training,2020,27.7381,Viral
+Real Estate & Construction,2005,0.0629,Niche
+Real Estate & Construction,2006,0.0629,Niche
+Real Estate & Construction,2007,0.0751,Niche
+Real Estate & Construction,2008,0.0769,Niche
+Real Estate & Construction,2009,0.0944,Niche
+Real Estate & Construction,2010,0.1472,Emerging
+Real Estate & Construction,2011,0.2816,Emerging
+Real Estate & Construction,2012,0.5607,Emerging
+Real Estate & Construction,2013,0.7028,Emerging
+Real Estate & Construction,2014,0.0,Niche
+Real Estate & Construction,2015,0.0,Niche
+Real Estate & Construction,2016,2.9666,Mainstream
+Real Estate & Construction,2017,6.7868,Mainstream
+Real Estate & Construction,2018,5.6962,Mainstream
+Real Estate & Construction,2019,6.9114,Mainstream
+Real Estate & Construction,2020,8.9684,Mainstream
+Travel & Hospitality,2005,0.0858,Niche
+Travel & Hospitality,2006,0.0858,Niche
+Travel & Hospitality,2007,0.1076,Emerging
+Travel & Hospitality,2008,0.1759,Emerging
+Travel & Hospitality,2009,0.316,Emerging
+Travel & Hospitality,2010,0.8577,Emerging
+Travel & Hospitality,2011,0.9403,Emerging
+Travel & Hospitality,2012,1.6813,Mainstream
+Travel & Hospitality,2013,2.3865,Mainstream
+Travel & Hospitality,2014,0.0,Niche
+Travel & Hospitality,2015,0.0,Niche
+Travel & Hospitality,2016,7.1984,Mainstream
+Travel & Hospitality,2017,10.8371,Viral
+Travel & Hospitality,2018,18.6484,Viral
+Travel & Hospitality,2019,14.8165,Viral
+Travel & Hospitality,2020,16.8002,Viral
+Food & Beverage,2005,0.0845,Niche
+Food & Beverage,2006,0.0845,Niche
+Food & Beverage,2007,0.0929,Niche
+Food & Beverage,2008,0.1091,Emerging
+Food & Beverage,2009,0.1792,Emerging
+Food & Beverage,2010,0.3569,Emerging
+Food & Beverage,2011,0.871,Emerging
+Food & Beverage,2012,2.2271,Mainstream
+Food & Beverage,2013,3.3599,Mainstream
+Food & Beverage,2014,0.0,Niche
+Food & Beverage,2015,0.0,Niche
+Food & Beverage,2016,8.2019,Mainstream
+Food & Beverage,2017,12.4238,Viral
+Food & Beverage,2018,17.3462,Viral
+Food & Beverage,2019,22.7583,Viral
+Food & Beverage,2020,27.2869,Viral
+Transportation & Logistics,2005,0.0971,Niche
+Transportation & Logistics,2006,0.0971,Niche
+Transportation & Logistics,2007,0.1256,Emerging
+Transportation & Logistics,2008,0.1431,Emerging
+Transportation & Logistics,2009,0.2231,Emerging
+Transportation & Logistics,2010,0.3624,Emerging
+Transportation & Logistics,2011,0.7168,Emerging
+Transportation & Logistics,2012,0.5778,Emerging
+Transportation & Logistics,2013,1.7214,Mainstream
+Transportation & Logistics,2014,0.0,Niche
+Transportation & Logistics,2015,0.0,Niche
+Transportation & Logistics,2016,5.9718,Mainstream
+Transportation & Logistics,2017,8.7668,Mainstream
+Transportation & Logistics,2018,14.6006,Viral
+Transportation & Logistics,2019,22.4431,Viral
+Transportation & Logistics,2020,24.9279,Viral
+Marketing & Advertising,2005,0.0724,Niche
+Marketing & Advertising,2006,0.0849,Niche
+Marketing & Advertising,2007,0.0913,Niche
+Marketing & Advertising,2008,0.1391,Emerging
+Marketing & Advertising,2009,0.2528,Emerging
+Marketing & Advertising,2010,0.4084,Emerging
+Marketing & Advertising,2011,0.9257,Emerging
+Marketing & Advertising,2012,1.596,Mainstream
+Marketing & Advertising,2013,2.0487,Mainstream
+Marketing & Advertising,2014,0.0,Niche
+Marketing & Advertising,2015,0.0,Niche
+Marketing & Advertising,2016,0.0,Niche
+Marketing & Advertising,2017,0.0,Niche
+Marketing & Advertising,2018,0.0,Niche
+Marketing & Advertising,2019,6.6393,Mainstream
+Marketing & Advertising,2020,24.4478,Viral
+Internet & Web Services,2005,0.186,Emerging
+Internet & Web Services,2006,0.2191,Emerging
+Internet & Web Services,2007,0.3598,Emerging
+Internet & Web Services,2008,0.71,Emerging
+Internet & Web Services,2009,1.4966,Mainstream
+Internet & Web Services,2010,3.4442,Mainstream
+Internet & Web Services,2011,0.0,Niche
+Internet & Web Services,2012,0.0,Niche
+Internet & Web Services,2013,0.0,Niche
+Internet & Web Services,2014,0.0,Niche
+Internet & Web Services,2015,0.0,Niche
+Internet & Web Services,2016,29.6258,Viral
+Internet & Web Services,2017,30.8457,Viral
+Internet & Web Services,2018,44.137,Viral
+Internet & Web Services,2019,60.7069,Viral
+Internet & Web Services,2020,68.8905,Viral
+Data & Analytics,2005,0.0337,Niche
+Data & Analytics,2006,0.0907,Niche
+Data & Analytics,2007,0.1114,Emerging
+Data & Analytics,2008,0.1718,Emerging
+Data & Analytics,2009,0.373,Emerging
+Data & Analytics,2010,0.9138,Emerging
+Data & Analytics,2011,2.4259,Mainstream
+Data & Analytics,2012,4.7937,Mainstream
+Data & Analytics,2013,5.7392,Mainstream
+Data & Analytics,2014,0.0,Niche
+Data & Analytics,2015,0.0,Niche
+Data & Analytics,2016,8.6507,Mainstream
+Data & Analytics,2017,38.1519,Viral
+Data & Analytics,2018,54.4293,Viral
+Data & Analytics,2019,292.0228,Viral
+Data & Analytics,2020,80.513,Viral
+Gaming,2005,0.1805,Emerging
+Gaming,2006,0.2639,Emerging
+Gaming,2007,0.7146,Emerging
+Gaming,2008,0.0,Niche
+Gaming,2009,0.0565,Niche
+Gaming,2010,11.994,Viral
+Gaming,2011,29.0341,Viral
+Gaming,2012,133.324,Viral
+Gaming,2013,255.3467,Viral
+Gaming,2014,280.3374,Viral
+Gaming,2015,0.0,Niche
+Gaming,2016,613.6583,Viral
+Gaming,2017,547.4023,Viral
+Gaming,2018,757.8933,Viral
+Gaming,2019,904.0915,Viral
+Gaming,2020,1075.8784,Viral
+Social & Community,2005,0.2103,Emerging
+Social & Community,2006,0.246,Emerging
+Social & Community,2007,0.6255,Emerging
+Social & Community,2008,1.4664,Mainstream
+Social & Community,2009,3.5784,Mainstream
+Social & Community,2010,8.8828,Mainstream
+Social & Community,2011,11.948,Viral
+Social & Community,2012,21.4256,Viral
+Social & Community,2013,12.5511,Viral
+Social & Community,2014,0.0,Niche
+Social & Community,2015,0.0,Niche
+Social & Community,2016,28.8035,Viral
+Social & Community,2017,115.2303,Viral
+Social & Community,2018,203.8412,Viral
+Social & Community,2019,249.5508,Viral
+Social & Community,2020,379.4478,Viral
+Consumer & Lifestyle,2005,0.0771,Niche
+Consumer & Lifestyle,2006,0.0855,Niche
+Consumer & Lifestyle,2007,0.0989,Niche
+Consumer & Lifestyle,2008,0.1292,Emerging
+Consumer & Lifestyle,2009,0.2075,Emerging
+Consumer & Lifestyle,2010,0.3628,Emerging
+Consumer & Lifestyle,2011,1.1605,Mainstream
+Consumer & Lifestyle,2012,3.396,Mainstream
+Consumer & Lifestyle,2013,3.0583,Mainstream
+Consumer & Lifestyle,2014,0.0,Niche
+Consumer & Lifestyle,2015,0.0,Niche
+Consumer & Lifestyle,2016,11.7115,Viral
+Consumer & Lifestyle,2017,18.258,Viral
+Consumer & Lifestyle,2018,21.8128,Viral
+Consumer & Lifestyle,2019,19.3419,Viral
+Consumer & Lifestyle,2020,26.2942,Viral
+Manufacturing & Industrial,2005,0.0877,Niche
+Manufacturing & Industrial,2006,0.0877,Niche
+Manufacturing & Industrial,2007,0.0927,Niche
+Manufacturing & Industrial,2008,0.0939,Niche
+Manufacturing & Industrial,2009,0.111,Emerging
+Manufacturing & Industrial,2010,0.1614,Emerging
+Manufacturing & Industrial,2011,0.3144,Emerging
+Manufacturing & Industrial,2012,0.38,Emerging
+Manufacturing & Industrial,2013,0.0995,Niche
+Manufacturing & Industrial,2014,0.0,Niche
+Manufacturing & Industrial,2015,0.0,Niche
+Manufacturing & Industrial,2016,3.1187,Mainstream
+Manufacturing & Industrial,2017,5.7733,Mainstream
+Manufacturing & Industrial,2018,8.197,Mainstream
+Manufacturing & Industrial,2019,15.5128,Viral
+Manufacturing & Industrial,2020,16.9418,Viral
+Sports & Recreation,2005,0.105,Emerging
+Sports & Recreation,2006,0.105,Emerging
+Sports & Recreation,2007,0.1368,Emerging
+Sports & Recreation,2008,0.2081,Emerging
+Sports & Recreation,2009,0.5707,Emerging
+Sports & Recreation,2010,1.2509,Mainstream
+Sports & Recreation,2011,1.0848,Mainstream
+Sports & Recreation,2012,0.0,Niche
+Sports & Recreation,2013,0.0,Niche
+Sports & Recreation,2014,0.0,Niche
+Sports & Recreation,2015,0.0,Niche
+Sports & Recreation,2016,7.6214,Mainstream
+Sports & Recreation,2017,9.4045,Mainstream
+Sports & Recreation,2018,11.4323,Viral
+Sports & Recreation,2019,21.3334,Viral
+Sports & Recreation,2020,21.4609,Viral
+Communications & Telecom,2005,0.1072,Emerging
+Communications & Telecom,2006,0.1175,Emerging
+Communications & Telecom,2007,0.1765,Emerging
+Communications & Telecom,2008,0.7382,Emerging
+Communications & Telecom,2009,0.4806,Emerging
+Communications & Telecom,2010,0.8142,Emerging
+Communications & Telecom,2011,2.3186,Mainstream
+Communications & Telecom,2012,2.4603,Mainstream
+Communications & Telecom,2013,2.1996,Mainstream
+Communications & Telecom,2014,0.0,Niche
+Communications & Telecom,2015,0.0,Niche
+Communications & Telecom,2016,5.8579,Mainstream
+Communications & Telecom,2017,11.564,Viral
+Communications & Telecom,2018,17.8579,Viral
+Communications & Telecom,2019,21.822,Viral
+Communications & Telecom,2020,18.3817,Viral
+Energy & Clean Tech,2005,0.1407,Emerging
+Energy & Clean Tech,2006,0.1463,Emerging
+Energy & Clean Tech,2007,0.0494,Niche
+Energy & Clean Tech,2008,0.6781,Emerging
+Energy & Clean Tech,2009,1.5032,Mainstream
+Energy & Clean Tech,2010,3.1732,Mainstream
+Energy & Clean Tech,2011,3.6221,Mainstream
+Energy & Clean Tech,2012,4.6372,Mainstream
+Energy & Clean Tech,2013,5.742,Mainstream
+Energy & Clean Tech,2014,0.0,Niche
+Energy & Clean Tech,2015,0.0,Niche
+Energy & Clean Tech,2016,8.8524,Mainstream
+Energy & Clean Tech,2017,23.1064,Viral
+Energy & Clean Tech,2018,56.8359,Viral
+Energy & Clean Tech,2019,39.196,Viral
+Energy & Clean Tech,2020,48.6294,Viral
+Enterprise & Business Services,2005,0.1063,Emerging
+Enterprise & Business Services,2006,0.1064,Emerging
+Enterprise & Business Services,2007,0.1799,Emerging
+Enterprise & Business Services,2008,0.3822,Emerging
+Enterprise & Business Services,2009,0.7211,Emerging
+Enterprise & Business Services,2010,2.3232,Mainstream
+Enterprise & Business Services,2011,4.3785,Mainstream
+Enterprise & Business Services,2012,5.4584,Mainstream
+Enterprise & Business Services,2013,8.8181,Mainstream
+Enterprise & Business Services,2014,0.0,Niche
+Enterprise & Business Services,2015,0.0,Niche
+Enterprise & Business Services,2016,0.0,Niche
+Enterprise & Business Services,2017,13.0081,Viral
+Enterprise & Business Services,2018,26.7559,Viral
+Enterprise & Business Services,2019,46.6309,Viral
+Enterprise & Business Services,2020,46.1599,Viral
+Security & Privacy,2005,0.0972,Niche
+Security & Privacy,2006,0.122,Emerging
+Security & Privacy,2007,0.1626,Emerging
+Security & Privacy,2008,0.2541,Emerging
+Security & Privacy,2009,0.0,Niche
+Security & Privacy,2010,0.5904,Emerging
+Security & Privacy,2011,3.3762,Mainstream
+Security & Privacy,2012,6.1435,Mainstream
+Security & Privacy,2013,6.9966,Mainstream
+Security & Privacy,2014,0.0,Niche
+Security & Privacy,2015,0.0,Niche
+Security & Privacy,2016,18.6922,Viral
+Security & Privacy,2017,41.7537,Viral
+Security & Privacy,2018,0.0,Niche
+Security & Privacy,2019,14.0103,Viral
+Security & Privacy,2020,25.5122,Viral
+AI & Machine Learning,2005,0.0,Niche
+AI & Machine Learning,2006,0.0,Niche
+AI & Machine Learning,2007,0.0,Niche
+AI & Machine Learning,2008,0.0,Niche
+AI & Machine Learning,2009,0.0,Niche
+AI & Machine Learning,2010,0.0,Niche
+AI & Machine Learning,2011,0.0,Niche
+AI & Machine Learning,2012,0.0,Niche
+AI & Machine Learning,2013,0.0,Niche
+AI & Machine Learning,2014,0.0,Niche
+AI & Machine Learning,2015,0.0,Niche
+AI & Machine Learning,2016,0.0,Niche
+AI & Machine Learning,2017,0.0,Niche
+AI & Machine Learning,2018,0.0,Niche
+AI & Machine Learning,2019,0.0,Niche
+AI & Machine Learning,2020,0.0,Niche
+Customer Service & CRM,2005,0.0,Niche
+Customer Service & CRM,2006,0.0,Niche
+Customer Service & CRM,2007,0.0,Niche
+Customer Service & CRM,2008,0.0,Niche
+Customer Service & CRM,2009,0.0,Niche
+Customer Service & CRM,2010,0.0,Niche
+Customer Service & CRM,2011,0.0,Niche
+Customer Service & CRM,2012,0.0,Niche
+Customer Service & CRM,2013,0.0,Niche
+Customer Service & CRM,2014,0.0,Niche
+Customer Service & CRM,2015,0.0,Niche
+Customer Service & CRM,2016,0.0,Niche
+Customer Service & CRM,2017,0.0,Niche
+Customer Service & CRM,2018,0.0,Niche
+Customer Service & CRM,2019,0.0,Niche
+Customer Service & CRM,2020,0.0,Niche
+HR & Recruiting,2005,0.0,Niche
+HR & Recruiting,2006,0.0,Niche
+HR & Recruiting,2007,0.0,Niche
+HR & Recruiting,2008,0.0,Niche
+HR & Recruiting,2009,0.0,Niche
+HR & Recruiting,2010,0.0,Niche
+HR & Recruiting,2011,0.0,Niche
+HR & Recruiting,2012,0.0,Niche
+HR & Recruiting,2013,0.0,Niche
+HR & Recruiting,2014,0.0,Niche
+HR & Recruiting,2015,0.0,Niche
+HR & Recruiting,2016,0.0,Niche
+HR & Recruiting,2017,0.0,Niche
+HR & Recruiting,2018,0.0,Niche
+HR & Recruiting,2019,0.0,Niche
+HR & Recruiting,2020,0.0,Niche
+Government & Politics,2005,0.0,Niche
+Government & Politics,2006,0.0,Niche
+Government & Politics,2007,0.0,Niche
+Government & Politics,2008,0.0,Niche
+Government & Politics,2009,0.0,Niche
+Government & Politics,2010,0.0,Niche
+Government & Politics,2011,0.0,Niche
+Government & Politics,2012,0.0,Niche
+Government & Politics,2013,0.0,Niche
+Government & Politics,2014,0.0,Niche
+Government & Politics,2015,0.0,Niche
+Government & Politics,2016,0.0,Niche
+Government & Politics,2017,0.0,Niche
+Government & Politics,2018,0.0,Niche
+Government & Politics,2019,0.0,Niche
+Government & Politics,2020,0.0,Niche

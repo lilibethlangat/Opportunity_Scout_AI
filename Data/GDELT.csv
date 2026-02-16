@@ -1,0 +1,107 @@
+Year,Industry,ArticleVolume,AvgSentiment
+2005,Business General (Baseline),9041,5.9149
+2006,Business General (Baseline),28849,6.4302
+2007,Business General (Baseline),60188,6.4589
+2008,Business General (Baseline),83586,6.4159
+2009,Business General (Baseline),142286,6.3866
+2010,Business General (Baseline),149705,6.5582
+2011,Business General (Baseline),204426,6.5926
+2012,Business General (Baseline),223401,6.1121
+2013,Business General (Baseline),218815,2.8293
+2014,Business General (Baseline),289042,2.8252
+2015,Communications & Telecom,1405225,-0.5888
+2016,Communications & Telecom,1987002,-0.6983
+2017,Communications & Telecom,1624489,-0.6663
+2018,Communications & Telecom,1345074,-0.5562
+2019,Communications & Telecom,1108016,-0.5933
+2020,Communications & Telecom,815038,-0.61
+2015,Customer Service & CRM,3366,-1.0272
+2016,Customer Service & CRM,5865,-1.18
+2017,Customer Service & CRM,4014,-0.8864
+2018,Customer Service & CRM,3709,-1.1317
+2019,Customer Service & CRM,3136,-1.098
+2020,Customer Service & CRM,2082,-0.8646
+2015,Education & Training,37599734,-0.5332
+2016,Education & Training,52888118,-0.5062
+2017,Education & Training,44322597,-0.5281
+2018,Education & Training,38797795,-0.6153
+2019,Education & Training,32500165,-0.375
+2020,Education & Training,26137324,-0.8578
+2015,Food & Beverage,7017047,-0.866
+2016,Food & Beverage,9767400,-0.9374
+2017,Food & Beverage,7808295,-1.1822
+2018,Food & Beverage,6430050,-1.1975
+2019,Food & Beverage,5334373,-1.0698
+2020,Food & Beverage,4054068,-1.1251
+2015,Gaming,26,0.9084
+2016,Gaming,107,-0.6893
+2017,Gaming,40,0.8569
+2018,Gaming,91,1.8495
+2019,Gaming,27,-0.2026
+2020,Gaming,13,-0.3386
+2015,Government & Politics,30527383,-1.2079
+2016,Government & Politics,43409454,-1.1289
+2017,Government & Politics,37719794,-1.1487
+2018,Government & Politics,32168367,-1.058
+2019,Government & Politics,25793678,-1.0503
+2020,Government & Politics,21168889,-1.1696
+2015,HR & Recruiting,4477,-1.4759
+2016,HR & Recruiting,5456,-1.3025
+2017,HR & Recruiting,4803,-1.0726
+2018,HR & Recruiting,4401,-0.9453
+2019,HR & Recruiting,3686,-1.4322
+2020,HR & Recruiting,3367,-1.5361
+2015,Healthcare & Life Sciences,453350,-0.5112
+2016,Healthcare & Life Sciences,621975,-0.6855
+2017,Healthcare & Life Sciences,564281,-0.7867
+2018,Healthcare & Life Sciences,497012,-0.5488
+2019,Healthcare & Life Sciences,432744,-0.486
+2020,Healthcare & Life Sciences,919132,-1.3268
+2015,Internet & Web Services,182177,0.5924
+2016,Internet & Web Services,370320,-0.0408
+2017,Internet & Web Services,289969,0.104
+2018,Internet & Web Services,246649,0.0299
+2019,Internet & Web Services,207194,-0.2513
+2020,Internet & Web Services,147586,-0.1753
+2015,Manufacturing & Industrial,1181896,-0.4943
+2016,Manufacturing & Industrial,1527050,-0.4951
+2017,Manufacturing & Industrial,1331899,-0.4393
+2018,Manufacturing & Industrial,1180301,-0.2997
+2019,Manufacturing & Industrial,1169318,-0.4276
+2020,Manufacturing & Industrial,1017262,-0.4292
+2015,Security & Privacy,17014764,-4.7668
+2016,Security & Privacy,24319058,-4.7584
+2017,Security & Privacy,20819127,-4.7126
+2018,Security & Privacy,17272050,-4.6752
+2019,Security & Privacy,14615166,-4.7601
+2020,Security & Privacy,10343156,-4.5262
+2015,Social & Community,7554,-1.8575
+2016,Social & Community,11157,-1.588
+2017,Social & Community,8868,-1.4997
+2018,Social & Community,5928,-1.7986
+2019,Social & Community,4311,-1.252
+2020,Social & Community,3085,-1.8579
+2015,Sports & Recreation,19690,-0.2542
+2016,Sports & Recreation,28918,-0.1403
+2017,Sports & Recreation,24244,-0.1189
+2018,Sports & Recreation,21968,-0.1293
+2019,Sports & Recreation,15574,0.1944
+2020,Sports & Recreation,10562,-0.078
+2015,Technology & Software,926896,0.1423
+2016,Technology & Software,1134882,0.0891
+2017,Technology & Software,1108588,-0.1118
+2018,Technology & Software,989564,-0.0111
+2019,Technology & Software,811666,0.2714
+2020,Technology & Software,555496,0.2185
+2015,Transportation & Logistics,42267,0.0864
+2016,Transportation & Logistics,461519,-2.3544
+2017,Transportation & Logistics,396265,-2.1984
+2018,Transportation & Logistics,357933,-2.1136
+2019,Transportation & Logistics,310123,-2.0005
+2020,Transportation & Logistics,197312,-2.0363
+2015,Travel & Hospitality,5274515,-0.2709
+2016,Travel & Hospitality,7356767,-0.14
+2017,Travel & Hospitality,6181741,-0.2023
+2018,Travel & Hospitality,5120797,0.0254
+2019,Travel & Hospitality,4152851,0.1061
+2020,Travel & Hospitality,3970723,-0.5741
