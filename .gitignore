@@ -28,7 +28,7 @@ share/python-wheels/
 MANIFEST
 
 # Ignore data we will not use
-/Data_ignore/
+Data_ignore/
 
 
 # PyInstaller
