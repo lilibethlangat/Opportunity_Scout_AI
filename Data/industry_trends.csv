@@ -1,0 +1,1729 @@
+industry,year,keyword,slope
+E-Commerce & Retail,2005,ecommerce,-0.1593291404612159
+E-Commerce & Retail,2005,online shopping,0.19956458635703922
+E-Commerce & Retail,2005,retail technology,0.0020158039025963584
+E-Commerce & Retail,2005,online retail,-0.026931140138687318
+E-Commerce & Retail,2006,ecommerce,-0.13900983712304468
+E-Commerce & Retail,2006,online shopping,0.4146105466860185
+E-Commerce & Retail,2006,retail technology,-0.015400741815836156
+E-Commerce & Retail,2006,online retail,0.0013707466537655206
+E-Commerce & Retail,2007,ecommerce,-0.03491372359296887
+E-Commerce & Retail,2007,online shopping,0.4400096758587325
+E-Commerce & Retail,2007,retail technology,-0.0033865505563618783
+E-Commerce & Retail,2007,online retail,0.024109014675052415
+E-Commerce & Retail,2008,ecommerce,-0.0590227382680213
+E-Commerce & Retail,2008,online shopping,0.25657152072246414
+E-Commerce & Retail,2008,retail technology,-0.0037090791807772943
+E-Commerce & Retail,2008,online retail,0.0032252862441541695
+E-Commerce & Retail,2009,ecommerce,0.0019351717464925126
+E-Commerce & Retail,2009,online shopping,0.7536687631027256
+E-Commerce & Retail,2009,retail technology,0.0016932752781809403
+E-Commerce & Retail,2009,online retail,0.009998387356877924
+E-Commerce & Retail,2010,ecommerce,-0.06418319625866795
+E-Commerce & Retail,2010,online shopping,0.12360909530720852
+E-Commerce & Retail,2010,retail technology,0.0009675858732462514
+E-Commerce & Retail,2010,online retail,-0.002983389775842606
+E-Commerce & Retail,2011,ecommerce,-0.0033865505563618697
+E-Commerce & Retail,2011,online shopping,0.6566682793097889
+E-Commerce & Retail,2011,retail technology,-0.00403160780519271
+E-Commerce & Retail,2011,online retail,0.004918561522335107
+E-Commerce & Retail,2012,ecommerce,-0.020238671182067406
+E-Commerce & Retail,2012,online shopping,0.8534107402031931
+E-Commerce & Retail,2012,retail technology,-0.009030801483631674
+E-Commerce & Retail,2012,online retail,0.004918561522335107
+E-Commerce & Retail,2013,ecommerce,-0.007498790517658441
+E-Commerce & Retail,2013,online shopping,0.42114175133043064
+E-Commerce & Retail,2013,retail technology,0.0
+E-Commerce & Retail,2013,online retail,0.0
+E-Commerce & Retail,2014,ecommerce,0.010643444605708761
+E-Commerce & Retail,2014,online shopping,0.48177713272052897
+E-Commerce & Retail,2014,retail technology,0.0
+E-Commerce & Retail,2014,online retail,-0.0035478148685695863
+E-Commerce & Retail,2015,ecommerce,0.0007256894049346997
+E-Commerce & Retail,2015,online shopping,0.15908724399290436
+E-Commerce & Retail,2015,retail technology,0.0
+E-Commerce & Retail,2015,online retail,0.0
+E-Commerce & Retail,2016,ecommerce,-0.011530398322851148
+E-Commerce & Retail,2016,online shopping,0.018706660216094167
+E-Commerce & Retail,2016,retail technology,0.0
+E-Commerce & Retail,2016,online retail,0.0
+E-Commerce & Retail,2017,ecommerce,-0.0038703434929850036
+E-Commerce & Retail,2017,online shopping,0.5076600548298662
+E-Commerce & Retail,2017,retail technology,0.0
+E-Commerce & Retail,2017,online retail,-0.0016932752781809387
+E-Commerce & Retail,2018,ecommerce,0.029833897758426067
+E-Commerce & Retail,2018,online shopping,0.22746331236897277
+E-Commerce & Retail,2018,retail technology,0.0
+E-Commerce & Retail,2018,online retail,-0.002015803902596356
+E-Commerce & Retail,2019,ecommerce,0.03273665537816482
+E-Commerce & Retail,2019,online shopping,0.10538622802773745
+E-Commerce & Retail,2019,retail technology,-0.0012901144976616677
+E-Commerce & Retail,2019,online retail,0.004112239961296565
+E-Commerce & Retail,2020,ecommerce,0.011933559103370435
+E-Commerce & Retail,2020,online shopping,0.309788743751008
+E-Commerce & Retail,2020,retail technology,0.0
+E-Commerce & Retail,2020,online retail,0.0
+Technology & Software,2005,software,-0.39163038219642005
+Technology & Software,2005,saas,-0.0056442509272697965
+Technology & Software,2005,cloud computing,0.0
+Technology & Software,2005,enterprise software,0.0
+Technology & Software,2006,software,-0.2780196742460894
+Technology & Software,2006,saas,0.005241090146750524
+Technology & Software,2006,cloud computing,0.0
+Technology & Software,2006,enterprise software,0.0
+Technology & Software,2007,software,-0.24133204321883572
+Technology & Software,2007,saas,0.0
+Technology & Software,2007,cloud computing,0.0
+Technology & Software,2007,enterprise software,0.0
+Technology & Software,2008,software,-0.20182228672794714
+Technology & Software,2008,saas,0.0
+Technology & Software,2008,cloud computing,0.003144654088050315
+Technology & Software,2008,enterprise software,0.0
+Technology & Software,2009,software,-0.04628285760361234
+Technology & Software,2009,saas,0.0
+Technology & Software,2009,cloud computing,0.009595226576358654
+Technology & Software,2009,enterprise software,0.0
+Technology & Software,2010,software,-0.3638929204966942
+Technology & Software,2010,saas,0.0
+Technology & Software,2010,cloud computing,0.0
+Technology & Software,2010,enterprise software,0.0
+Technology & Software,2011,software,-0.17593936461860996
+Technology & Software,2011,saas,0.0006450572488308339
+Technology & Software,2011,cloud computing,-0.002660861151427189
+Technology & Software,2011,enterprise software,0.0
+Technology & Software,2012,software,-0.2873730043541365
+Technology & Software,2012,saas,-0.003386550556361877
+Technology & Software,2012,cloud computing,-0.016126431220770846
+Technology & Software,2012,enterprise software,0.0
+Technology & Software,2013,software,-0.2589904854055798
+Technology & Software,2013,saas,0.0
+Technology & Software,2013,cloud computing,0.0
+Technology & Software,2013,enterprise software,0.0
+Technology & Software,2014,software,-0.2829382357684245
+Technology & Software,2014,saas,0.005160457990646672
+Technology & Software,2014,cloud computing,0.0
+Technology & Software,2014,enterprise software,0.0
+Technology & Software,2015,software,-0.27503628447024675
+Technology & Software,2015,saas,0.0
+Technology & Software,2015,cloud computing,0.0
+Technology & Software,2015,enterprise software,0.0
+Technology & Software,2016,software,-0.2141590066118368
+Technology & Software,2016,saas,-0.010159651669085635
+Technology & Software,2016,cloud computing,0.0
+Technology & Software,2016,enterprise software,0.0
+Technology & Software,2017,software,-0.19319464602483472
+Technology & Software,2017,saas,-0.004354136429608128
+Technology & Software,2017,cloud computing,0.0003225286244154169
+Technology & Software,2017,enterprise software,0.0
+Technology & Software,2018,software,-0.20867601999677474
+Technology & Software,2018,saas,0.022738268021286888
+Technology & Software,2018,cloud computing,0.0068537332688276085
+Technology & Software,2018,enterprise software,0.0
+Technology & Software,2019,software,-0.02031930333817126
+Technology & Software,2019,saas,0.0
+Technology & Software,2019,cloud computing,0.015562006128043869
+Technology & Software,2019,enterprise software,0.0
+Technology & Software,2020,software,-0.21552975326560234
+Technology & Software,2020,saas,-0.0361232059345267
+Technology & Software,2020,cloud computing,0.007901951298177716
+Technology & Software,2020,enterprise software,0.0
+Healthcare & Life Sciences,2005,digital health,0.0049991936784389655
+Healthcare & Life Sciences,2005,telemedicine,-0.009111433639735522
+Healthcare & Life Sciences,2005,healthcare technology,-0.014836316723109167
+Healthcare & Life Sciences,2005,medical devices,-0.029430736977906786
+Healthcare & Life Sciences,2005,biotech,-0.35873246250604746
+Healthcare & Life Sciences,2006,digital health,0.011530398322851153
+Healthcare & Life Sciences,2006,telemedicine,-0.052733430091920656
+Healthcare & Life Sciences,2006,healthcare technology,-0.013626834381551363
+Healthcare & Life Sciences,2006,medical devices,-0.061199806482825365
+Healthcare & Life Sciences,2006,biotech,-0.5595065312046446
+Healthcare & Life Sciences,2007,digital health,-0.0035478148685695867
+Healthcare & Life Sciences,2007,telemedicine,-0.024995968392194808
+Healthcare & Life Sciences,2007,healthcare technology,-0.02306079664570231
+Healthcare & Life Sciences,2007,medical devices,-0.038461538461538464
+Healthcare & Life Sciences,2007,biotech,-0.37631027253668764
+Healthcare & Life Sciences,2008,digital health,-0.010320915981293343
+Healthcare & Life Sciences,2008,telemedicine,-0.03580067731011128
+Healthcare & Life Sciences,2008,healthcare technology,-0.004515400741815835
+Healthcare & Life Sciences,2008,medical devices,-0.04781486856958555
+Healthcare & Life Sciences,2008,biotech,-0.45903886469924204
+Healthcare & Life Sciences,2009,digital health,0.0019351717464925013
+Healthcare & Life Sciences,2009,telemedicine,-0.019754878245444276
+Healthcare & Life Sciences,2009,healthcare technology,0.0005644250927269826
+Healthcare & Life Sciences,2009,medical devices,-0.0183034994355749
+Healthcare & Life Sciences,2009,biotech,-0.34478309950008057
+Healthcare & Life Sciences,2010,digital health,-0.020803096274794392
+Healthcare & Life Sciences,2010,telemedicine,-0.030156426382841484
+Healthcare & Life Sciences,2010,healthcare technology,-0.013788098693759068
+Healthcare & Life Sciences,2010,medical devices,-0.057168198677632655
+Healthcare & Life Sciences,2010,biotech,-0.4188840509595227
+Healthcare & Life Sciences,2011,digital health,-0.0028221254636348956
+Healthcare & Life Sciences,2011,telemedicine,-0.021125624899209806
+Healthcare & Life Sciences,2011,healthcare technology,-0.004434768585711977
+Healthcare & Life Sciences,2011,medical devices,-0.01661022415739396
+Healthcare & Life Sciences,2011,biotech,-0.3002741493307531
+Healthcare & Life Sciences,2012,digital health,0.008143847766489277
+Healthcare & Life Sciences,2012,telemedicine,-0.023625221738429285
+Healthcare & Life Sciences,2012,healthcare technology,-0.014755684567005324
+Healthcare & Life Sciences,2012,medical devices,-0.0269311401386873
+Healthcare & Life Sciences,2012,biotech,-0.45589421061119173
+Healthcare & Life Sciences,2013,digital health,-0.009998387356877924
+Healthcare & Life Sciences,2013,telemedicine,-0.005886147395581355
+Healthcare & Life Sciences,2013,healthcare technology,0.001532010965973234
+Healthcare & Life Sciences,2013,medical devices,-0.02402838251894855
+Healthcare & Life Sciences,2013,biotech,-0.251652959200129
+Healthcare & Life Sciences,2014,digital health,-0.00024189646831156237
+Healthcare & Life Sciences,2014,telemedicine,-0.00806321561038542
+Healthcare & Life Sciences,2014,healthcare technology,-0.0019351717464925003
+Healthcare & Life Sciences,2014,medical devices,-0.03176906950491855
+Healthcare & Life Sciences,2014,biotech,-0.4190453152717304
+Healthcare & Life Sciences,2015,digital health,0.00854700854700855
+Healthcare & Life Sciences,2015,telemedicine,-0.010562812449604895
+Healthcare & Life Sciences,2015,healthcare technology,-0.0016126431220770813
+Healthcare & Life Sciences,2015,medical devices,-0.02709240445089501
+Healthcare & Life Sciences,2015,biotech,-0.3804225124979842
+Healthcare & Life Sciences,2016,digital health,0.008466376390904699
+Healthcare & Life Sciences,2016,telemedicine,0.001532010965973235
+Healthcare & Life Sciences,2016,healthcare technology,-0.004434768585711978
+Healthcare & Life Sciences,2016,medical devices,-0.01822286727947104
+Healthcare & Life Sciences,2016,biotech,-0.40832123850991775
+Healthcare & Life Sciences,2017,digital health,0.010965973230124175
+Healthcare & Life Sciences,2017,telemedicine,-0.009675858732462506
+Healthcare & Life Sciences,2017,healthcare technology,-0.0071762618932430244
+Healthcare & Life Sciences,2017,medical devices,-0.03531688437348815
+Healthcare & Life Sciences,2017,biotech,-0.35083051120786973
+Healthcare & Life Sciences,2018,digital health,-0.011449766166747298
+Healthcare & Life Sciences,2018,telemedicine,0.004354136429608133
+Healthcare & Life Sciences,2018,healthcare technology,-0.008708272859216255
+Healthcare & Life Sciences,2018,medical devices,0.008950169327527823
+Healthcare & Life Sciences,2018,biotech,-0.39348492178680866
+Healthcare & Life Sciences,2019,digital health,0.023060796645702316
+Healthcare & Life Sciences,2019,telemedicine,-0.005402354458958232
+Healthcare & Life Sciences,2019,healthcare technology,-0.007418158361554586
+Healthcare & Life Sciences,2019,medical devices,0.020399935494275132
+Healthcare & Life Sciences,2019,biotech,-0.25165295920012903
+Healthcare & Life Sciences,2020,digital health,0.0029027576197387522
+Healthcare & Life Sciences,2020,telemedicine,-0.08708272859216257
+Healthcare & Life Sciences,2020,healthcare technology,-0.002015803902596355
+Healthcare & Life Sciences,2020,medical devices,-0.03765521690049993
+Healthcare & Life Sciences,2020,biotech,0.18021286889211427
+Finance & Fintech,2005,fintech,-0.048379293662312535
+Finance & Fintech,2005,digital banking,0.1740041928721175
+Finance & Fintech,2005,payment technology,0.023786486050637
+Finance & Fintech,2005,cryptocurrency,0.0
+Finance & Fintech,2005,blockchain finance,0.0
+Finance & Fintech,2006,fintech,0.2536687631027254
+Finance & Fintech,2006,digital banking,0.7317368166424771
+Finance & Fintech,2006,payment technology,0.0915981293339784
+Finance & Fintech,2006,cryptocurrency,0.0
+Finance & Fintech,2006,blockchain finance,0.0
+Finance & Fintech,2007,fintech,0.06345750685373329
+Finance & Fintech,2007,digital banking,0.7380261248185779
+Finance & Fintech,2007,payment technology,0.030398322851153046
+Finance & Fintech,2007,cryptocurrency,0.0
+Finance & Fintech,2007,blockchain finance,0.0
+Finance & Fintech,2008,fintech,-0.014755684567005314
+Finance & Fintech,2008,digital banking,0.05942589904854056
+Finance & Fintech,2008,payment technology,-0.006531204644412189
+Finance & Fintech,2008,cryptocurrency,0.0
+Finance & Fintech,2008,blockchain finance,0.0
+Finance & Fintech,2009,fintech,0.0060474117077890755
+Finance & Fintech,2009,digital banking,0.55313659087244
+Finance & Fintech,2009,payment technology,0.005563618771165946
+Finance & Fintech,2009,cryptocurrency,0.0
+Finance & Fintech,2009,blockchain finance,0.0
+Finance & Fintech,2010,fintech,0.026286082889856482
+Finance & Fintech,2010,digital banking,1.1479600064505726
+Finance & Fintech,2010,payment technology,0.004837929366231257
+Finance & Fintech,2010,cryptocurrency,0.0
+Finance & Fintech,2010,blockchain finance,0.0
+Finance & Fintech,2011,fintech,-0.010965973230124175
+Finance & Fintech,2011,digital banking,-0.6984357361715855
+Finance & Fintech,2011,payment technology,-0.0023383325270117717
+Finance & Fintech,2011,cryptocurrency,0.0
+Finance & Fintech,2011,blockchain finance,0.0
+Finance & Fintech,2012,fintech,0.01846476374778262
+Finance & Fintech,2012,digital banking,0.09498467989034022
+Finance & Fintech,2012,payment technology,0.002741493307531045
+Finance & Fintech,2012,cryptocurrency,-0.0016932752781809385
+Finance & Fintech,2012,blockchain finance,0.0
+Finance & Fintech,2013,fintech,0.07127882599580714
+Finance & Fintech,2013,digital banking,0.5770843412352846
+Finance & Fintech,2013,payment technology,0.00532172230285438
+Finance & Fintech,2013,cryptocurrency,0.4786324786324787
+Finance & Fintech,2013,blockchain finance,0.00040316078051927113
+Finance & Fintech,2014,fintech,0.15666827930978877
+Finance & Fintech,2014,digital banking,-0.23834865344299322
+Finance & Fintech,2014,payment technology,0.007740686985970007
+Finance & Fintech,2014,cryptocurrency,-0.656023222060958
+Finance & Fintech,2014,blockchain finance,0.0
+Finance & Fintech,2015,fintech,0.7399612965650704
+Finance & Fintech,2015,digital banking,0.2589098532494759
+Finance & Fintech,2015,payment technology,-0.0027414933075310412
+Finance & Fintech,2015,cryptocurrency,0.0026608611514271877
+Finance & Fintech,2015,blockchain finance,-0.0004031607805192709
+Finance & Fintech,2016,fintech,0.5247540719238835
+Finance & Fintech,2016,digital banking,-0.15368488953394613
+Finance & Fintech,2016,payment technology,-0.011449766166747298
+Finance & Fintech,2016,cryptocurrency,0.28777616513465576
+Finance & Fintech,2016,blockchain finance,0.0053217223028543805
+Finance & Fintech,2017,fintech,0.009917755200774071
+Finance & Fintech,2017,digital banking,0.03894533139816159
+Finance & Fintech,2017,payment technology,0.0
+Finance & Fintech,2017,cryptocurrency,1.1147395581357846
+Finance & Fintech,2017,blockchain finance,0.0
+Finance & Fintech,2018,fintech,0.009272697951943238
+Finance & Fintech,2018,digital banking,0.018787292372198037
+Finance & Fintech,2018,payment technology,0.0
+Finance & Fintech,2018,cryptocurrency,-1.0030640219319464
+Finance & Fintech,2018,blockchain finance,0.0
+Finance & Fintech,2019,fintech,0.1323173681664248
+Finance & Fintech,2019,digital banking,0.002177068214804063
+Finance & Fintech,2019,payment technology,0.0
+Finance & Fintech,2019,cryptocurrency,-0.31648121270762786
+Finance & Fintech,2019,blockchain finance,-0.010079019512981778
+Finance & Fintech,2020,fintech,-0.07063376874697629
+Finance & Fintech,2020,digital banking,0.028624415416868245
+Finance & Fintech,2020,payment technology,0.0
+Finance & Fintech,2020,cryptocurrency,0.5454765360425738
+Finance & Fintech,2020,blockchain finance,0.0
+Media & Entertainment,2005,streaming services,0.012094823415578134
+Media & Entertainment,2005,digital media,-0.09280761167553625
+Media & Entertainment,2005,content creation,-0.0030640219319464593
+Media & Entertainment,2005,entertainment technology,-0.024915336236090956
+Media & Entertainment,2006,streaming services,-0.0049991936784389585
+Media & Entertainment,2006,digital media,-0.14900822447992265
+Media & Entertainment,2006,content creation,0.011611030478955009
+Media & Entertainment,2006,entertainment technology,-0.008305112078696986
+Media & Entertainment,2007,streaming services,-0.008547008547008544
+Media & Entertainment,2007,digital media,-0.1390098371230447
+Media & Entertainment,2007,content creation,0.007337526205450733
+Media & Entertainment,2007,entertainment technology,-0.01451378809869376
+Media & Entertainment,2008,streaming services,-0.0028221254636348987
+Media & Entertainment,2008,digital media,0.10288663118851794
+Media & Entertainment,2008,content creation,-0.009030801483631674
+Media & Entertainment,2008,entertainment technology,0.00556361877116594
+Media & Entertainment,2009,streaming services,0.01007901951298178
+Media & Entertainment,2009,digital media,0.09151749717787451
+Media & Entertainment,2009,content creation,-0.005160457990646668
+Media & Entertainment,2009,entertainment technology,-0.003709079180777295
+Media & Entertainment,2010,streaming services,0.004515400741815838
+Media & Entertainment,2010,digital media,-0.3672794710530561
+Media & Entertainment,2010,content creation,-0.00032252862441541693
+Media & Entertainment,2010,entertainment technology,-0.008869537171423966
+Media & Entertainment,2011,streaming services,0.07950330591840027
+Media & Entertainment,2011,digital media,-0.2453636510240285
+Media & Entertainment,2011,content creation,0.0016126431220770856
+Media & Entertainment,2011,entertainment technology,-0.009030801483631671
+Media & Entertainment,2012,streaming services,-0.014916948879213037
+Media & Entertainment,2012,digital media,-0.2714884696016772
+Media & Entertainment,2012,content creation,-0.0025802289953233346
+Media & Entertainment,2012,entertainment technology,-0.010643444605708758
+Media & Entertainment,2013,streaming services,-0.00620867601999678
+Media & Entertainment,2013,digital media,-0.1983551040154814
+Media & Entertainment,2013,content creation,0.0013707466537655228
+Media & Entertainment,2013,entertainment technology,-0.017013384937913243
+Media & Entertainment,2014,streaming services,0.046282857603612323
+Media & Entertainment,2014,digital media,-0.18972746331236898
+Media & Entertainment,2014,content creation,-0.004676665054023544
+Media & Entertainment,2014,entertainment technology,-0.009675858732462506
+Media & Entertainment,2015,streaming services,-0.018787292372198033
+Media & Entertainment,2015,digital media,-0.1378809869375907
+Media & Entertainment,2015,content creation,-0.0004031607805192689
+Media & Entertainment,2015,entertainment technology,-0.0013707466537655202
+Media & Entertainment,2016,streaming services,0.02765682954362199
+Media & Entertainment,2016,digital media,-0.16948879213030155
+Media & Entertainment,2016,content creation,0.003305918400258026
+Media & Entertainment,2016,entertainment technology,-0.008869537171423962
+Media & Entertainment,2017,streaming services,0.2543944525076601
+Media & Entertainment,2017,digital media,-0.10845024995968393
+Media & Entertainment,2017,content creation,0.007901951298177714
+Media & Entertainment,2017,entertainment technology,-0.008950169327527818
+Media & Entertainment,2018,streaming services,0.19061441702951135
+Media & Entertainment,2018,digital media,-0.09288824383164007
+Media & Entertainment,2018,content creation,0.03765521690049992
+Media & Entertainment,2018,entertainment technology,-0.014836316723109179
+Media & Entertainment,2019,streaming services,0.7337526205450736
+Media & Entertainment,2019,digital media,-0.08829221093372036
+Media & Entertainment,2019,content creation,0.029511369134010652
+Media & Entertainment,2019,entertainment technology,0.00024189646831156402
+Media & Entertainment,2020,streaming services,0.16231253023705855
+Media & Entertainment,2020,digital media,-0.018706660216094163
+Media & Entertainment,2020,content creation,0.017416545718432513
+Media & Entertainment,2020,entertainment technology,-0.0071762618932430244
+Education & Training,2005,edtech,0.005563618771165942
+Education & Training,2005,online learning,-0.2759232381873891
+Education & Training,2005,elearning,-0.14304144492823737
+Education & Training,2005,educational technology,-0.1394936300596678
+Education & Training,2006,edtech,0.007498790517658445
+Education & Training,2006,online learning,-0.27713272052894694
+Education & Training,2006,elearning,-0.150459603289792
+Education & Training,2006,educational technology,-0.11393323657474601
+Education & Training,2007,edtech,-0.001209482341557814
+Education & Training,2007,online learning,-0.14900822447992262
+Education & Training,2007,elearning,0.16118368005160466
+Education & Training,2007,educational technology,-0.056603773584905655
+Education & Training,2008,edtech,0.0014513788098693783
+Education & Training,2008,online learning,-0.0944202547976133
+Education & Training,2008,elearning,0.027737461699725904
+Education & Training,2008,educational technology,-0.04241251411062732
+Education & Training,2009,edtech,-0.0018545395903886454
+Education & Training,2009,online learning,0.1581196581196582
+Education & Training,2009,elearning,0.1616674729882278
+Education & Training,2009,educational technology,-0.009756490888566349
+Education & Training,2010,edtech,0.003064021931946462
+Education & Training,2010,online learning,-0.31502983389775846
+Education & Training,2010,elearning,-0.13288179325915173
+Education & Training,2010,educational technology,-0.026689243670375746
+Education & Training,2011,edtech,0.001370746653765523
+Education & Training,2011,online learning,-0.09691985163683275
+Education & Training,2011,elearning,0.18368005160458006
+Education & Training,2011,educational technology,0.004434768585711991
+Education & Training,2012,edtech,-0.0005644250927269794
+Education & Training,2012,online learning,-0.11119174326721498
+Education & Training,2012,elearning,0.04805676503789712
+Education & Training,2012,educational technology,-0.0063699403322044785
+Education & Training,2013,edtech,0.00975649088856636
+Education & Training,2013,online learning,-0.056603773584905676
+Education & Training,2013,elearning,0.0915174971778746
+Education & Training,2013,educational technology,-0.01128850185453959
+Education & Training,2014,edtech,-0.001612643122077085
+Education & Training,2014,online learning,-0.07055313659087245
+Education & Training,2014,elearning,0.14029995162070644
+Education & Training,2014,educational technology,0.001854539590388649
+Education & Training,2015,edtech,0.010320915981293342
+Education & Training,2015,online learning,-0.06998871149814544
+Education & Training,2015,elearning,0.021125624899209872
+Education & Training,2015,educational technology,0.0009675858732462544
+Education & Training,2016,edtech,0.009998387356877926
+Education & Training,2016,online learning,-0.053459119496855355
+Education & Training,2016,elearning,0.10869214642799555
+Education & Training,2016,educational technology,-0.002822125463634895
+Education & Training,2017,edtech,-0.004434768585711982
+Education & Training,2017,online learning,-0.07748750201580391
+Education & Training,2017,elearning,-0.059103370424125085
+Education & Training,2017,educational technology,-0.015562006128043862
+Education & Training,2018,edtech,0.003950975649088859
+Education & Training,2018,online learning,-0.04926624737945493
+Education & Training,2018,elearning,0.21440090308014842
+Education & Training,2018,educational technology,-0.01072407676181261
+Education & Training,2019,edtech,-0.002015803902596355
+Education & Training,2019,online learning,0.023705853894533144
+Education & Training,2019,elearning,0.3992904370262862
+Education & Training,2019,educational technology,-0.0018545395903886456
+Education & Training,2020,edtech,0.006208676019996776
+Education & Training,2020,online learning,0.05732946298984036
+Education & Training,2020,elearning,0.8566360264473475
+Education & Training,2020,educational technology,-0.0017739074342847925
+Real Estate & Construction,2005,proptech,0.0
+Real Estate & Construction,2005,real estate technology,-0.1116755362038381
+Real Estate & Construction,2005,construction technology,-0.12441541686824699
+Real Estate & Construction,2005,smart buildings,0.0
+Real Estate & Construction,2006,proptech,0.014836316723109179
+Real Estate & Construction,2006,real estate technology,-0.21762618932430255
+Real Estate & Construction,2006,construction technology,-0.5336236090953073
+Real Estate & Construction,2006,smart buildings,-0.0074181583615545894
+Real Estate & Construction,2007,proptech,0.0
+Real Estate & Construction,2007,real estate technology,-0.06636026447347199
+Real Estate & Construction,2007,construction technology,-0.06103854217061762
+Real Estate & Construction,2007,smart buildings,-0.001773907434284794
+Real Estate & Construction,2008,proptech,0.015965166908563137
+Real Estate & Construction,2008,real estate technology,-0.19456539267860026
+Real Estate & Construction,2008,construction technology,-0.24746008708272862
+Real Estate & Construction,2008,smart buildings,0.019190453152717307
+Real Estate & Construction,2009,proptech,-0.025963554265441068
+Real Estate & Construction,2009,real estate technology,-0.1132881793259152
+Real Estate & Construction,2009,construction technology,0.03201096597323021
+Real Estate & Construction,2009,smart buildings,-0.019432349621028872
+Real Estate & Construction,2010,proptech,0.0
+Real Estate & Construction,2010,real estate technology,-0.1375584583131753
+Real Estate & Construction,2010,construction technology,-0.18287373004354132
+Real Estate & Construction,2010,smart buildings,0.0015320109659732236
+Real Estate & Construction,2011,proptech,0.0
+Real Estate & Construction,2011,real estate technology,-0.04547653604257379
+Real Estate & Construction,2011,construction technology,0.09966134494436385
+Real Estate & Construction,2011,smart buildings,-0.05773262377035962
+Real Estate & Construction,2012,proptech,0.0
+Real Estate & Construction,2012,real estate technology,-0.07724560554749235
+Real Estate & Construction,2012,construction technology,-0.22109337203676832
+Real Estate & Construction,2012,smart buildings,0.05313659087243994
+Real Estate & Construction,2013,proptech,-0.009030801483631674
+Real Estate & Construction,2013,real estate technology,-0.038139009837123046
+Real Estate & Construction,2013,construction technology,-0.11078858248669567
+Real Estate & Construction,2013,smart buildings,-0.022980164489598453
+Real Estate & Construction,2014,proptech,1.4459086776175676e-18
+Real Estate & Construction,2014,real estate technology,-0.06168359941944851
+Real Estate & Construction,2014,construction technology,0.03765521690049998
+Real Estate & Construction,2014,smart buildings,-0.008950169327527818
+Real Estate & Construction,2015,proptech,0.002983389775842608
+Real Estate & Construction,2015,real estate technology,-0.03765521690049992
+Real Estate & Construction,2015,construction technology,-0.049911304628285726
+Real Estate & Construction,2015,smart buildings,0.053701015965166916
+Real Estate & Construction,2016,proptech,0.10570875665215292
+Real Estate & Construction,2016,real estate technology,0.014916948879213047
+Real Estate & Construction,2016,construction technology,-0.10328979196903722
+Real Estate & Construction,2016,smart buildings,-0.0016932752781809324
+Real Estate & Construction,2017,proptech,0.17142396387679412
+Real Estate & Construction,2017,real estate technology,-0.027092404450895016
+Real Estate & Construction,2017,construction technology,-0.09901628769553297
+Real Estate & Construction,2017,smart buildings,0.01007901951298178
+Real Estate & Construction,2018,proptech,0.18311562651185295
+Real Estate & Construction,2018,real estate technology,-0.08071278825995809
+Real Estate & Construction,2018,construction technology,-0.0012094823415577914
+Real Estate & Construction,2018,smart buildings,0.021851314304144498
+Real Estate & Construction,2019,proptech,0.33204321883567167
+Real Estate & Construction,2019,real estate technology,-0.009595226576358638
+Real Estate & Construction,2019,construction technology,-0.17722947911627157
+Real Estate & Construction,2019,smart buildings,0.03773584905660379
+Real Estate & Construction,2020,proptech,-0.29987098855023386
+Real Estate & Construction,2020,real estate technology,-0.025076600548298664
+Real Estate & Construction,2020,construction technology,-0.0712788259958071
+Real Estate & Construction,2020,smart buildings,-0.021609417835832933
+Travel & Hospitality,2005,travel technology,-0.01709401709401708
+Travel & Hospitality,2005,online booking,-0.07119819383970327
+Travel & Hospitality,2005,hotel technology,-0.06894049346879534
+Travel & Hospitality,2005,tourism technology,-0.017739074342847924
+Travel & Hospitality,2006,travel technology,-0.03894533139816158
+Travel & Hospitality,2006,online booking,0.16497339138848574
+Travel & Hospitality,2006,hotel technology,-0.06853733268827608
+Travel & Hospitality,2006,tourism technology,-0.055716819867763265
+Travel & Hospitality,2007,travel technology,-0.008143847766489277
+Travel & Hospitality,2007,online booking,0.5212868892114176
+Travel & Hospitality,2007,hotel technology,-0.01378809869375907
+Travel & Hospitality,2007,tourism technology,0.009030801483631671
+Travel & Hospitality,2008,travel technology,-0.016690856313497825
+Travel & Hospitality,2008,online booking,0.7665699080793421
+Travel & Hospitality,2008,hotel technology,-0.02257700370907918
+Travel & Hospitality,2008,tourism technology,0.003305918400258025
+Travel & Hospitality,2009,travel technology,-0.0012094823415578126
+Travel & Hospitality,2009,online booking,1.0865989356555394
+Travel & Hospitality,2009,hotel technology,0.002096436058700211
+Travel & Hospitality,2009,tourism technology,0.0
+Travel & Hospitality,2010,travel technology,-0.01354620222544751
+Travel & Hospitality,2010,online booking,-0.6232865666827933
+Travel & Hospitality,2010,hotel technology,-0.0020964360587002098
+Travel & Hospitality,2010,tourism technology,0.0
+Travel & Hospitality,2011,travel technology,-0.0037090791807772947
+Travel & Hospitality,2011,online booking,-0.004999193678438977
+Travel & Hospitality,2011,hotel technology,0.0
+Travel & Hospitality,2011,tourism technology,-0.0009675858732462511
+Travel & Hospitality,2012,travel technology,-0.002015803902596356
+Travel & Hospitality,2012,online booking,0.07385905499113045
+Travel & Hospitality,2012,hotel technology,0.0
+Travel & Hospitality,2012,tourism technology,-0.008143847766489277
+Travel & Hospitality,2013,travel technology,-0.002015803902596356
+Travel & Hospitality,2013,online booking,0.2501209482341558
+Travel & Hospitality,2013,hotel technology,-0.0008063215610385422
+Travel & Hospitality,2013,tourism technology,-0.0027414933075310443
+Travel & Hospitality,2014,travel technology,-0.002015803902596356
+Travel & Hospitality,2014,online booking,0.3850991775520078
+Travel & Hospitality,2014,hotel technology,-0.0020964360587002098
+Travel & Hospitality,2014,tourism technology,0.0
+Travel & Hospitality,2015,travel technology,-0.002015803902596355
+Travel & Hospitality,2015,online booking,-0.02926947266569909
+Travel & Hospitality,2015,hotel technology,0.002096436058700211
+Travel & Hospitality,2015,tourism technology,0.0
+Travel & Hospitality,2016,travel technology,0.0
+Travel & Hospitality,2016,online booking,-0.13989679084018705
+Travel & Hospitality,2016,hotel technology,0.0
+Travel & Hospitality,2016,tourism technology,0.0
+Travel & Hospitality,2017,travel technology,-0.002338332527011773
+Travel & Hospitality,2017,online booking,0.2661667472988228
+Travel & Hospitality,2017,hotel technology,0.0
+Travel & Hospitality,2017,tourism technology,0.0
+Travel & Hospitality,2018,travel technology,-0.002015803902596356
+Travel & Hospitality,2018,online booking,0.12344783099500083
+Travel & Hospitality,2018,hotel technology,0.0
+Travel & Hospitality,2018,tourism technology,0.0009675858732462505
+Travel & Hospitality,2019,travel technology,0.0
+Travel & Hospitality,2019,online booking,0.020803096274794382
+Travel & Hospitality,2019,hotel technology,0.0
+Travel & Hospitality,2019,tourism technology,0.0013707466537655221
+Travel & Hospitality,2020,travel technology,0.0
+Travel & Hospitality,2020,online booking,0.39396871472343176
+Travel & Hospitality,2020,hotel technology,-0.0020964360587002098
+Travel & Hospitality,2020,tourism technology,0.0010482180293501049
+Food & Beverage,2005,food delivery,0.14118690533784878
+Food & Beverage,2005,food technology,-0.1433639735526528
+Food & Beverage,2005,restaurant technology,0.0030640219319464606
+Food & Beverage,2005,meal kit,-0.009675858732462506
+Food & Beverage,2006,food delivery,0.06313497822931784
+Food & Beverage,2006,food technology,-0.18537332688276087
+Food & Beverage,2006,restaurant technology,0.015965166908563137
+Food & Beverage,2006,meal kit,0.0
+Food & Beverage,2007,food delivery,0.18384131591678765
+Food & Beverage,2007,food technology,-0.06378003547814869
+Food & Beverage,2007,restaurant technology,0.00459603289791969
+Food & Beverage,2007,meal kit,0.0
+Food & Beverage,2008,food delivery,0.0238671182067408
+Food & Beverage,2008,food technology,-0.06345750685373328
+Food & Beverage,2008,restaurant technology,-0.015562006128043869
+Food & Beverage,2008,meal kit,0.002015803902596356
+Food & Beverage,2009,food delivery,0.14513788098693756
+Food & Beverage,2009,food technology,-0.03136590872439928
+Food & Beverage,2009,restaurant technology,0.0008869537171423981
+Food & Beverage,2009,meal kit,-0.0033865505563618775
+Food & Beverage,2010,food delivery,0.1811804547653604
+Food & Beverage,2010,food technology,-0.05337848734075149
+Food & Beverage,2010,restaurant technology,-0.002177068214804064
+Food & Beverage,2010,meal kit,-0.00016126431220770825
+Food & Beverage,2011,food delivery,0.11570714400903079
+Food & Beverage,2011,food technology,-0.024189646831156264
+Food & Beverage,2011,restaurant technology,0.0
+Food & Beverage,2011,meal kit,-0.00266086115142719
+Food & Beverage,2012,food delivery,0.1876310272536688
+Food & Beverage,2012,food technology,-0.030882115787776165
+Food & Beverage,2012,restaurant technology,0.0
+Food & Beverage,2012,meal kit,0.0
+Food & Beverage,2013,food delivery,0.17424608934042898
+Food & Beverage,2013,food technology,-0.020964360587002094
+Food & Beverage,2013,restaurant technology,-0.007256894049346881
+Food & Beverage,2013,meal kit,0.0
+Food & Beverage,2014,food delivery,0.06482825350749877
+Food & Beverage,2014,food technology,-0.010724076761812605
+Food & Beverage,2014,restaurant technology,-0.0032252862441541673
+Food & Beverage,2014,meal kit,-0.00322528624415417
+Food & Beverage,2015,food delivery,0.30454765360425734
+Food & Beverage,2015,food technology,-0.016287695532978548
+Food & Beverage,2015,restaurant technology,-0.0043541364296081275
+Food & Beverage,2015,meal kit,-3.7343433312049593e-20
+Food & Beverage,2016,food delivery,0.34067085953878407
+Food & Beverage,2016,food technology,-0.01652959200129011
+Food & Beverage,2016,restaurant technology,-0.007095629737139172
+Food & Beverage,2016,meal kit,0.02056119980648283
+Food & Beverage,2017,food delivery,0.2633446218351879
+Food & Beverage,2017,food technology,-0.02370585389453314
+Food & Beverage,2017,restaurant technology,-0.0023383325270117717
+Food & Beverage,2017,meal kit,0.00048379293662312534
+Food & Beverage,2018,food delivery,0.08184163844541202
+Food & Beverage,2018,food technology,-0.017900338655055636
+Food & Beverage,2018,restaurant technology,-0.0016932752781809385
+Food & Beverage,2018,meal kit,0.0095145944202548
+Food & Beverage,2019,food delivery,-0.1304628285760362
+Food & Beverage,2019,food technology,-0.01588453475245928
+Food & Beverage,2019,restaurant technology,0.0
+Food & Beverage,2019,meal kit,-0.005644250927269798
+Food & Beverage,2020,food delivery,-0.3443799387195614
+Food & Beverage,2020,food technology,0.006531204644412196
+Food & Beverage,2020,restaurant technology,0.0
+Food & Beverage,2020,meal kit,0.0
+Transportation & Logistics,2005,logistics technology,-0.007660054829866156
+Transportation & Logistics,2005,supply chain,-0.33196258667956774
+Transportation & Logistics,2005,delivery services,-0.02709240445089502
+Transportation & Logistics,2005,transportation technology,0.0024189646831156313
+Transportation & Logistics,2005,fleet management,-0.05684567005321723
+Transportation & Logistics,2006,logistics technology,-0.013788098693759078
+Transportation & Logistics,2006,supply chain,-0.38687308498629264
+Transportation & Logistics,2006,delivery services,-0.04362199645218515
+Transportation & Logistics,2006,transportation technology,-0.038380906305434614
+Transportation & Logistics,2006,fleet management,-0.03249475890985325
+Transportation & Logistics,2007,logistics technology,0.002177068214804066
+Transportation & Logistics,2007,supply chain,-0.11594904047734236
+Transportation & Logistics,2007,delivery services,-0.010965973230124172
+Transportation & Logistics,2007,transportation technology,0.0022577003709079216
+Transportation & Logistics,2007,fleet management,-0.01749717787453636
+Transportation & Logistics,2008,logistics technology,0.0045960328979196925
+Transportation & Logistics,2008,supply chain,-0.26463473633284956
+Transportation & Logistics,2008,delivery services,-0.03168843734881471
+Transportation & Logistics,2008,transportation technology,-0.017255281406224805
+Transportation & Logistics,2008,fleet management,-0.009837123044670212
+Transportation & Logistics,2009,logistics technology,-0.00612804386389292
+Transportation & Logistics,2009,supply chain,-0.10917593936461854
+Transportation & Logistics,2009,delivery services,0.0023383325270117756
+Transportation & Logistics,2009,transportation technology,-0.002660861151427188
+Transportation & Logistics,2009,fleet management,0.0032252862441541764
+Transportation & Logistics,2010,logistics technology,-0.0018545395903886463
+Transportation & Logistics,2010,supply chain,-0.21174004192872115
+Transportation & Logistics,2010,delivery services,-0.031124012256087727
+Transportation & Logistics,2010,transportation technology,-0.00516045799064667
+Transportation & Logistics,2010,fleet management,-0.03289791969037252
+Transportation & Logistics,2011,logistics technology,-0.0040316078051927115
+Transportation & Logistics,2011,supply chain,-0.09337203676826314
+Transportation & Logistics,2011,delivery services,-0.008143847766489272
+Transportation & Logistics,2011,transportation technology,-0.008708272859216257
+Transportation & Logistics,2011,fleet management,-0.020480567650378968
+Transportation & Logistics,2012,logistics technology,0.0
+Transportation & Logistics,2012,supply chain,-0.12989840348330917
+Transportation & Logistics,2012,delivery services,-0.02418964683115627
+Transportation & Logistics,2012,transportation technology,-0.010562812449604903
+Transportation & Logistics,2012,fleet management,-0.01677148846960168
+Transportation & Logistics,2013,logistics technology,-0.00209643605870021
+Transportation & Logistics,2013,supply chain,-0.08917916465086276
+Transportation & Logistics,2013,delivery services,-0.009353330108047092
+Transportation & Logistics,2013,transportation technology,0.0016126431220770847
+Transportation & Logistics,2013,fleet management,-0.004434768585711981
+Transportation & Logistics,2014,logistics technology,0.0
+Transportation & Logistics,2014,supply chain,-0.035558780841799635
+Transportation & Logistics,2014,delivery services,-0.0029833897758426045
+Transportation & Logistics,2014,transportation technology,-0.005321722302854378
+Transportation & Logistics,2014,fleet management,-0.012336719883889694
+Transportation & Logistics,2015,logistics technology,-0.0020964360587002098
+Transportation & Logistics,2015,supply chain,-0.12876955329785514
+Transportation & Logistics,2015,delivery services,0.02096436058700211
+Transportation & Logistics,2015,transportation technology,-0.00249959683921948
+Transportation & Logistics,2015,fleet management,-0.0032252862441541612
+Transportation & Logistics,2016,logistics technology,0.002096436058700211
+Transportation & Logistics,2016,supply chain,-0.022415739396871442
+Transportation & Logistics,2016,delivery services,0.0322528624415417
+Transportation & Logistics,2016,transportation technology,-8.06321561038542e-05
+Transportation & Logistics,2016,fleet management,0.002741493307531049
+Transportation & Logistics,2017,logistics technology,0.0
+Transportation & Logistics,2017,supply chain,0.0012094823415578493
+Transportation & Logistics,2017,delivery services,-0.00016126431220770638
+Transportation & Logistics,2017,transportation technology,-0.0012901144976616673
+Transportation & Logistics,2017,fleet management,0.006047411707789069
+Transportation & Logistics,2018,logistics technology,0.0
+Transportation & Logistics,2018,supply chain,-0.09764554104176744
+Transportation & Logistics,2018,delivery services,0.011772294791162718
+Transportation & Logistics,2018,transportation technology,-0.003225286244154167
+Transportation & Logistics,2018,fleet management,0.006369940332204487
+Transportation & Logistics,2019,logistics technology,0.0
+Transportation & Logistics,2019,supply chain,-0.038380906305434594
+Transportation & Logistics,2019,delivery services,-0.008224479922593139
+Transportation & Logistics,2019,transportation technology,0.0009675858732462516
+Transportation & Logistics,2019,fleet management,-0.03797774552491534
+Transportation & Logistics,2020,logistics technology,0.0
+Transportation & Logistics,2020,supply chain,-0.143767134333172
+Transportation & Logistics,2020,delivery services,-0.07055313659087244
+Transportation & Logistics,2020,transportation technology,0.0028221254636348982
+Transportation & Logistics,2020,fleet management,-0.025399129172714075
+Marketing & Advertising,2005,digital marketing,-0.5285437832607643
+Marketing & Advertising,2005,martech,0.3892114175133044
+Marketing & Advertising,2005,advertising technology,0.06450572488308323
+Marketing & Advertising,2005,marketing automation,0.0
+Marketing & Advertising,2006,digital marketing,-0.13868730849862926
+Marketing & Advertising,2006,martech,-0.15086276407031135
+Marketing & Advertising,2006,advertising technology,-0.053217223028543835
+Marketing & Advertising,2006,marketing automation,0.040638606676342524
+Marketing & Advertising,2007,digital marketing,0.09103370424125146
+Marketing & Advertising,2007,martech,-0.11675536203838092
+Marketing & Advertising,2007,advertising technology,0.10570875665215292
+Marketing & Advertising,2007,marketing automation,0.06619900016126429
+Marketing & Advertising,2008,digital marketing,0.11078858248669576
+Marketing & Advertising,2008,martech,-0.05958716336074827
+Marketing & Advertising,2008,advertising technology,-0.013788098693759038
+Marketing & Advertising,2008,marketing automation,0.07297210127398807
+Marketing & Advertising,2009,digital marketing,0.23859054991130468
+Marketing & Advertising,2009,martech,0.025802289953233366
+Marketing & Advertising,2009,advertising technology,0.026205450733752644
+Marketing & Advertising,2009,marketing automation,0.04096113530075797
+Marketing & Advertising,2010,digital marketing,0.1382841477181101
+Marketing & Advertising,2010,martech,-0.07377842283502661
+Marketing & Advertising,2010,advertising technology,-0.056926302209321086
+Marketing & Advertising,2010,marketing automation,-0.023302693114013867
+Marketing & Advertising,2011,digital marketing,0.32365747460087096
+Marketing & Advertising,2011,martech,-0.031204644412191583
+Marketing & Advertising,2011,advertising technology,-0.003144654088050303
+Marketing & Advertising,2011,marketing automation,0.008305112078696995
+Marketing & Advertising,2012,digital marketing,0.12852765682954362
+Marketing & Advertising,2012,martech,-0.025399129172714075
+Marketing & Advertising,2012,advertising technology,-0.031527173036607
+Marketing & Advertising,2012,marketing automation,0.008224479922593132
+Marketing & Advertising,2013,digital marketing,0.25874858893726826
+Marketing & Advertising,2013,martech,-0.014110627318174489
+Marketing & Advertising,2013,advertising technology,-0.0037897113368811457
+Marketing & Advertising,2013,marketing automation,0.009514594420254804
+Marketing & Advertising,2014,digital marketing,0.26100628930817626
+Marketing & Advertising,2014,martech,-0.007095629737139171
+Marketing & Advertising,2014,advertising technology,-0.007176261893243024
+Marketing & Advertising,2014,marketing automation,0.013546202225447519
+Marketing & Advertising,2015,digital marketing,0.25899048540557984
+Marketing & Advertising,2015,martech,-0.01064344460570876
+Marketing & Advertising,2015,advertising technology,-0.005805515239477504
+Marketing & Advertising,2015,marketing automation,0.02120625705531366
+Marketing & Advertising,2016,digital marketing,0.26044186421544924
+Marketing & Advertising,2016,martech,-0.0008063215610385405
+Marketing & Advertising,2016,advertising technology,0.004918561522335108
+Marketing & Advertising,2016,marketing automation,0.005805515239477509
+Marketing & Advertising,2017,digital marketing,0.05241090146750527
+Marketing & Advertising,2017,martech,0.0027414933075310456
+Marketing & Advertising,2017,advertising technology,0.0
+Marketing & Advertising,2017,marketing automation,0.019190453152717304
+Marketing & Advertising,2018,digital marketing,0.3737300435413644
+Marketing & Advertising,2018,martech,0.0018545395903886493
+Marketing & Advertising,2018,advertising technology,-0.0020158039025963558
+Marketing & Advertising,2018,marketing automation,0.020238671182067413
+Marketing & Advertising,2019,digital marketing,0.5218513143041446
+Marketing & Advertising,2019,martech,-0.0019351717464925018
+Marketing & Advertising,2019,advertising technology,-0.0036284470246734394
+Marketing & Advertising,2019,marketing automation,-0.0005644250927269765
+Marketing & Advertising,2020,digital marketing,-0.10974036445734557
+Marketing & Advertising,2020,martech,0.0005644250927269796
+Marketing & Advertising,2020,advertising technology,0.002338332527011773
+Marketing & Advertising,2020,marketing automation,-0.013223673601032094
+Internet & Web Services,2005,web services,-0.3751814223512337
+Internet & Web Services,2005,internet technology,-0.04765360425737784
+Internet & Web Services,2005,web applications,-0.06829543621996452
+Internet & Web Services,2005,online services,-0.09046927914852444
+Internet & Web Services,2006,web services,-0.48726011933559105
+Internet & Web Services,2006,internet technology,-0.06982744718593775
+Internet & Web Services,2006,web applications,-0.07797129495242704
+Internet & Web Services,2006,online services,0.019835510401548143
+Internet & Web Services,2007,web services,-0.2948717948717949
+Internet & Web Services,2007,internet technology,-0.018867924528301886
+Internet & Web Services,2007,web applications,-0.010965973230124175
+Internet & Web Services,2007,online services,-0.10240283825189488
+Internet & Web Services,2008,web services,-0.36776326398967907
+Internet & Web Services,2008,internet technology,-0.03636510240283825
+Internet & Web Services,2008,web applications,-0.09538784067085954
+Internet & Web Services,2008,online services,-0.01838413159167877
+Internet & Web Services,2009,web services,-0.12046444121915818
+Internet & Web Services,2009,internet technology,0.006208676019996782
+Internet & Web Services,2009,web applications,-0.04668601838413158
+Internet & Web Services,2009,online services,0.6211094984679891
+Internet & Web Services,2010,web services,-0.2640703112401226
+Internet & Web Services,2010,internet technology,-0.038461538461538464
+Internet & Web Services,2010,web applications,-0.05507176261893243
+Internet & Web Services,2010,online services,-0.35502338332527017
+Internet & Web Services,2011,web services,-0.2152072246411869
+Internet & Web Services,2011,internet technology,-0.00330591840025802
+Internet & Web Services,2011,web applications,-0.051846476374778266
+Internet & Web Services,2011,online services,-0.3915497500403161
+Internet & Web Services,2012,web services,-0.22641509433962267
+Internet & Web Services,2012,internet technology,-0.029753265602322207
+Internet & Web Services,2012,web applications,-0.052894694404128376
+Internet & Web Services,2012,online services,0.17997097242380264
+Internet & Web Services,2013,web services,-0.15231414288018064
+Internet & Web Services,2013,internet technology,-0.012336719883889694
+Internet & Web Services,2013,web applications,-0.025237864860506373
+Internet & Web Services,2013,online services,-0.18658280922431866
+Internet & Web Services,2014,web services,-0.11159490404773423
+Internet & Web Services,2014,internet technology,-0.014594420254797614
+Internet & Web Services,2014,web applications,-0.03305918400258023
+Internet & Web Services,2014,online services,-0.43710691823899367
+Internet & Web Services,2015,web services,-0.08047089179164649
+Internet & Web Services,2015,internet technology,-0.01596516690856313
+Internet & Web Services,2015,web applications,-0.023302693114013867
+Internet & Web Services,2015,online services,-0.20383809063054345
+Internet & Web Services,2016,web services,-0.0919206579583938
+Internet & Web Services,2016,internet technology,-0.016045799064666983
+Internet & Web Services,2016,web applications,-0.02789872601193356
+Internet & Web Services,2016,online services,-0.2570553136590873
+Internet & Web Services,2017,web services,-0.2153684889533946
+Internet & Web Services,2017,internet technology,-0.014997581035316886
+Internet & Web Services,2017,web applications,-0.03572004515400742
+Internet & Web Services,2017,online services,-0.13941299790356396
+Internet & Web Services,2018,web services,-0.21665860345105634
+Internet & Web Services,2018,internet technology,-0.04079987098855023
+Internet & Web Services,2018,web applications,-0.03112401225608773
+Internet & Web Services,2018,online services,-0.36219964521851317
+Internet & Web Services,2019,web services,-0.052330269311401376
+Internet & Web Services,2019,internet technology,-0.014433155942589898
+Internet & Web Services,2019,web applications,-0.0563618771165941
+Internet & Web Services,2019,online services,0.08587324625060477
+Internet & Web Services,2020,web services,-0.1153846153846154
+Internet & Web Services,2020,internet technology,0.04305757135945816
+Internet & Web Services,2020,web applications,-0.012497984196097402
+Internet & Web Services,2020,online services,-0.08950169327527818
+Data & Analytics,2005,data analytics,0.03902596355426544
+Data & Analytics,2005,big data,0.011611030478955018
+Data & Analytics,2005,business intelligence,-0.2024673439767779
+Data & Analytics,2005,data science,-0.09812933397839058
+Data & Analytics,2006,data analytics,0.022254475084663775
+Data & Analytics,2006,big data,-0.02846315110466055
+Data & Analytics,2006,business intelligence,-0.2935010482180294
+Data & Analytics,2006,data science,-0.06837606837606838
+Data & Analytics,2007,data analytics,0.019674246089340437
+Data & Analytics,2007,big data,-0.00612804386389292
+Data & Analytics,2007,business intelligence,-0.0531365908724399
+Data & Analytics,2007,data science,-0.03563941299790357
+Data & Analytics,2008,data analytics,-0.016368327689082404
+Data & Analytics,2008,big data,0.038300274149330765
+Data & Analytics,2008,business intelligence,-0.2076278019674246
+Data & Analytics,2008,data science,-0.03128527656829543
+Data & Analytics,2009,data analytics,0.048782454442831816
+Data & Analytics,2009,big data,0.0033865505563618783
+Data & Analytics,2009,business intelligence,-0.19940332204483138
+Data & Analytics,2009,data science,0.026205450733752644
+Data & Analytics,2010,data analytics,0.008143847766489281
+Data & Analytics,2010,big data,0.024270278987260134
+Data & Analytics,2010,business intelligence,-0.2609256571520722
+Data & Analytics,2010,data science,-0.025641025641025644
+Data & Analytics,2011,data analytics,0.08885663602644736
+Data & Analytics,2011,big data,0.3172875342686664
+Data & Analytics,2011,business intelligence,-0.15844218674407345
+Data & Analytics,2011,data science,0.02120625705531367
+Data & Analytics,2012,data analytics,0.10885341074020323
+Data & Analytics,2012,big data,1.0272536687631026
+Data & Analytics,2012,business intelligence,-0.20359619416223187
+Data & Analytics,2012,data science,0.04741170778906628
+Data & Analytics,2013,data analytics,0.11707789066279634
+Data & Analytics,2013,big data,0.34937913239800045
+Data & Analytics,2013,business intelligence,-0.1114336397355265
+Data & Analytics,2013,data science,0.12385099177552011
+Data & Analytics,2014,data analytics,0.08401870666021613
+Data & Analytics,2014,big data,0.3459119496855347
+Data & Analytics,2014,business intelligence,-0.06692468956619899
+Data & Analytics,2014,data science,0.14223512336719887
+Data & Analytics,2015,data analytics,0.08047089179164657
+Data & Analytics,2015,big data,-0.054265441057893854
+Data & Analytics,2015,business intelligence,-0.0827285921625544
+Data & Analytics,2015,data science,0.19198516368327692
+Data & Analytics,2016,data analytics,0.14191259474278348
+Data & Analytics,2016,big data,0.017416545718432572
+Data & Analytics,2016,business intelligence,-0.05071762618932428
+Data & Analytics,2016,data science,0.2106918238993711
+Data & Analytics,2017,data analytics,0.04354136429608129
+Data & Analytics,2017,big data,-0.1432027092404451
+Data & Analytics,2017,business intelligence,-0.07039187227866474
+Data & Analytics,2017,data science,0.338009998387357
+Data & Analytics,2018,data analytics,-0.02370585389453313
+Data & Analytics,2018,big data,-0.12917271407837444
+Data & Analytics,2018,business intelligence,-0.05531365908724399
+Data & Analytics,2018,data science,0.22028705047572972
+Data & Analytics,2019,data analytics,0.15029833897758427
+Data & Analytics,2019,big data,0.11078858248669575
+Data & Analytics,2019,business intelligence,-0.007982583454281565
+Data & Analytics,2019,data science,0.33164005805515245
+Data & Analytics,2020,data analytics,-0.1784389614578294
+Data & Analytics,2020,big data,-0.20593452668924367
+Data & Analytics,2020,business intelligence,-0.07845508788905017
+Data & Analytics,2020,data science,-0.24205773262377037
+Gaming,2005,video games,0.14078374455732945
+Gaming,2005,gaming,0.3980003225286245
+Gaming,2005,esports,-0.0027414933075310443
+Gaming,2005,mobile gaming,-0.0022577003709079177
+Gaming,2006,video games,0.08837284308982424
+Gaming,2006,gaming,0.20698274471859376
+Gaming,2006,esports,-0.0063699403322044846
+Gaming,2006,mobile gaming,0.0
+Gaming,2007,video games,0.1895661990001613
+Gaming,2007,gaming,-0.04773423641348171
+Gaming,2007,esports,-0.005402354458958233
+Gaming,2007,mobile gaming,0.0
+Gaming,2008,video games,0.08595387840670858
+Gaming,2008,gaming,-0.012820512820512841
+Gaming,2008,esports,-0.0020964360587002098
+Gaming,2008,mobile gaming,0.0
+Gaming,2009,video games,0.2506047411707789
+Gaming,2009,gaming,-0.10143525237864866
+Gaming,2009,esports,-0.013949363005966782
+Gaming,2009,mobile gaming,0.0
+Gaming,2010,video games,0.058861473955813565
+Gaming,2010,gaming,0.0732139977422996
+Gaming,2010,esports,-0.006047411707789068
+Gaming,2010,mobile gaming,0.0022577003709079186
+Gaming,2011,video games,0.4682309304950814
+Gaming,2011,gaming,0.33478471214320277
+Gaming,2011,esports,0.009353330108047089
+Gaming,2011,mobile gaming,0.020883728430898245
+Gaming,2012,video games,-0.4080793420416063
+Gaming,2012,gaming,0.4029995162070634
+Gaming,2012,esports,-0.008547008547008548
+Gaming,2012,mobile gaming,0.016368327689082404
+Gaming,2013,video games,-0.004999193678438982
+Gaming,2013,gaming,0.41122399612965654
+Gaming,2013,esports,0.06692468956619901
+Gaming,2013,mobile gaming,-0.0006450572488308358
+Gaming,2014,video games,0.01564263828414771
+Gaming,2014,gaming,0.3762296403805838
+Gaming,2014,esports,-0.005563618771165933
+Gaming,2014,mobile gaming,0.0
+Gaming,2015,video games,-0.014352523786486063
+Gaming,2015,gaming,0.4379938719561361
+Gaming,2015,esports,0.012497984196097418
+Gaming,2015,mobile gaming,0.0
+Gaming,2016,video games,-0.010804708917916472
+Gaming,2016,gaming,0.16731172391549745
+Gaming,2016,esports,-0.00999838735687792
+Gaming,2016,mobile gaming,0.0
+Gaming,2017,video games,-0.04394452507660055
+Gaming,2017,gaming,0.27100467666505407
+Gaming,2017,esports,-0.0006450572488308314
+Gaming,2017,mobile gaming,0.0
+Gaming,2018,video games,0.015400741815836156
+Gaming,2018,gaming,0.4300112885018546
+Gaming,2018,esports,0.0228995323334946
+Gaming,2018,mobile gaming,0.02539912917271409
+Gaming,2019,video games,-0.011530398322851158
+Gaming,2019,gaming,0.3566360264473472
+Gaming,2019,esports,0.03499435574907273
+Gaming,2019,mobile gaming,0.0
+Gaming,2020,video games,-0.017577810030640222
+Gaming,2020,gaming,0.680857926140945
+Gaming,2020,esports,0.012497984196097415
+Gaming,2020,mobile gaming,0.0
+Social & Community,2005,social media,-0.009756490888566342
+Social & Community,2005,social networking,0.13231736816642478
+Social & Community,2005,online community,-0.37227866473149496
+Social & Community,2005,social platform,0.0
+Social & Community,2006,social media,-0.008627640703112394
+Social & Community,2006,social networking,0.63159167876149
+Social & Community,2006,online community,-0.16408643767134334
+Social & Community,2006,social platform,0.0
+Social & Community,2007,social media,0.2535074987905177
+Social & Community,2007,social networking,0.9129172714078375
+Social & Community,2007,online community,-0.16110304789550076
+Social & Community,2007,social platform,0.03636510240283826
+Social & Community,2008,social media,0.24399290437026286
+Social & Community,2008,social networking,0.26995645863570394
+Social & Community,2008,online community,-0.04047734236413484
+Social & Community,2008,social platform,0.0025802289953233376
+Social & Community,2009,social media,1.106353813900984
+Social & Community,2009,social networking,0.3260764392839866
+Social & Community,2009,online community,0.02757619738751816
+Social & Community,2009,social platform,-0.0033865505563618736
+Social & Community,2010,social media,0.3837284308982423
+Social & Community,2010,social networking,0.02676987582647962
+Social & Community,2010,online community,-0.10748266408643767
+Social & Community,2010,social platform,1.0417701424720238e-20
+Social & Community,2011,social media,0.17505241090146761
+Social & Community,2011,social networking,-0.07490727302048056
+Social & Community,2011,online community,-0.02298016448959845
+Social & Community,2011,social platform,0.0
+Social & Community,2012,social media,-0.17319787131107886
+Social & Community,2012,social networking,-0.15102402838251897
+Social & Community,2012,online community,-0.08659893565553946
+Social & Community,2012,social platform,0.0
+Social & Community,2013,social media,0.015400741815836186
+Social & Community,2013,social networking,-0.08563134978229318
+Social & Community,2013,online community,-0.08079342041606194
+Social & Community,2013,social platform,-0.002015803902596356
+Social & Community,2014,social media,-0.024512175455571626
+Social & Community,2014,social networking,-0.07216577971294955
+Social & Community,2014,online community,-0.10982099661344946
+Social & Community,2014,social platform,-0.002015803902596355
+Social & Community,2015,social media,0.09038864699242062
+Social & Community,2015,social networking,-0.04926624737945494
+Social & Community,2015,online community,-0.041686824705692634
+Social & Community,2015,social platform,-0.002015803902596355
+Social & Community,2016,social media,0.0066118368005161025
+Social & Community,2016,social networking,-0.029592001290114498
+Social & Community,2016,online community,-0.031204644412191587
+Social & Community,2016,social platform,0.002096436058700211
+Social & Community,2017,social media,-0.15965166908563136
+Social & Community,2017,social networking,-0.027576197387518146
+Social & Community,2017,online community,-0.017416545718432513
+Social & Community,2017,social platform,0.0017739074342847934
+Social & Community,2018,social media,-0.010724076761812563
+Social & Community,2018,social networking,-0.015562006128043865
+Social & Community,2018,online community,-0.0257216577971295
+Social & Community,2018,social platform,0.0
+Social & Community,2019,social media,-0.06579583938074503
+Social & Community,2019,social networking,-0.012094823415578134
+Social & Community,2019,online community,-0.0034671827124657315
+Social & Community,2019,social platform,0.0
+Social & Community,2020,social media,0.005482986615062109
+Social & Community,2020,social networking,-0.002418964683115628
+Social & Community,2020,online community,-0.023947750362844706
+Social & Community,2020,social platform,0.0038703434929850036
+Consumer & Lifestyle,2005,consumer technology,-0.12006128043863891
+Consumer & Lifestyle,2005,lifestyle products,0.018867924528301886
+Consumer & Lifestyle,2005,consumer goods,-0.4078374455732946
+Consumer & Lifestyle,2005,personal technology,-0.17118206740848246
+Consumer & Lifestyle,2006,consumer technology,-0.0777293984841155
+Consumer & Lifestyle,2006,lifestyle products,0.06821480406386067
+Consumer & Lifestyle,2006,consumer goods,-0.5053217223028545
+Consumer & Lifestyle,2006,personal technology,-0.004031607805192729
+Consumer & Lifestyle,2007,consumer technology,-0.057893888082567325
+Consumer & Lifestyle,2007,lifestyle products,-0.0074987905176584395
+Consumer & Lifestyle,2007,consumer goods,-0.17029511369134012
+Consumer & Lifestyle,2007,personal technology,-0.022818900177390765
+Consumer & Lifestyle,2008,consumer technology,-0.12893081761006292
+Consumer & Lifestyle,2008,lifestyle products,0.05894210611191745
+Consumer & Lifestyle,2008,consumer goods,-0.21722302854378325
+Consumer & Lifestyle,2008,personal technology,-0.02717303660699888
+Consumer & Lifestyle,2009,consumer technology,-0.01781970649895177
+Consumer & Lifestyle,2009,lifestyle products,0.04039671020803097
+Consumer & Lifestyle,2009,consumer goods,0.010240283825189522
+Consumer & Lifestyle,2009,personal technology,0.07256894049346882
+Consumer & Lifestyle,2010,consumer technology,-0.07023060796645703
+Consumer & Lifestyle,2010,lifestyle products,-0.034913723592968876
+Consumer & Lifestyle,2010,consumer goods,-0.3105144331559426
+Consumer & Lifestyle,2010,personal technology,-0.07216577971294952
+Consumer & Lifestyle,2011,consumer technology,-0.0325753910659571
+Consumer & Lifestyle,2011,lifestyle products,-0.03507498790517659
+Consumer & Lifestyle,2011,consumer goods,-0.1501370746653765
+Consumer & Lifestyle,2011,personal technology,-0.007176261893243017
+Consumer & Lifestyle,2012,consumer technology,-0.06369940332204482
+Consumer & Lifestyle,2012,lifestyle products,-0.016852120625705534
+Consumer & Lifestyle,2012,consumer goods,-0.11425576519916142
+Consumer & Lifestyle,2012,personal technology,-0.0035478148685695863
+Consumer & Lifestyle,2013,consumer technology,-0.08135784550878893
+Consumer & Lifestyle,2013,lifestyle products,0.0024189646831156305
+Consumer & Lifestyle,2013,consumer goods,-0.2540719238832446
+Consumer & Lifestyle,2013,personal technology,0.008788905015320116
+Consumer & Lifestyle,2014,consumer technology,-0.04716981132075473
+Consumer & Lifestyle,2014,lifestyle products,-0.012739880664408966
+Consumer & Lifestyle,2014,consumer goods,-0.14586357039187225
+Consumer & Lifestyle,2014,personal technology,-0.007821319142073848
+Consumer & Lifestyle,2015,consumer technology,-0.01193355910337042
+Consumer & Lifestyle,2015,lifestyle products,0.005241090146750527
+Consumer & Lifestyle,2015,consumer goods,-0.002096436058700148
+Consumer & Lifestyle,2015,personal technology,-0.01330430575713594
+Consumer & Lifestyle,2016,consumer technology,-0.043541364296081284
+Consumer & Lifestyle,2016,lifestyle products,0.010320915981293343
+Consumer & Lifestyle,2016,consumer goods,-0.13489759716174807
+Consumer & Lifestyle,2016,personal technology,-0.018222867279471047
+Consumer & Lifestyle,2017,consumer technology,-0.017900338655055643
+Consumer & Lifestyle,2017,lifestyle products,-0.009111433639735529
+Consumer & Lifestyle,2017,consumer goods,-0.29745202386711816
+Consumer & Lifestyle,2017,personal technology,-0.02854378326076439
+Consumer & Lifestyle,2018,consumer technology,-0.05918400258022901
+Consumer & Lifestyle,2018,lifestyle products,0.028785679729075968
+Consumer & Lifestyle,2018,consumer goods,-0.17819706498951782
+Consumer & Lifestyle,2018,personal technology,-0.051362683438155136
+Consumer & Lifestyle,2019,consumer technology,-0.014110627318174477
+Consumer & Lifestyle,2019,lifestyle products,0.004434768585711982
+Consumer & Lifestyle,2019,consumer goods,-0.13691340106434446
+Consumer & Lifestyle,2019,personal technology,-0.004434768585711972
+Consumer & Lifestyle,2020,consumer technology,0.01862602805999033
+Consumer & Lifestyle,2020,lifestyle products,0.0648282535074988
+Consumer & Lifestyle,2020,consumer goods,0.3391388485728109
+Consumer & Lifestyle,2020,personal technology,0.09796806966618289
+Manufacturing & Industrial,2005,industrial automation,-0.1082083534913724
+Manufacturing & Industrial,2005,manufacturing technology,-0.34325108853410735
+Manufacturing & Industrial,2005,industry 4.0,0.0
+Manufacturing & Industrial,2005,smart manufacturing,0.0
+Manufacturing & Industrial,2006,industrial automation,-0.24584744396065147
+Manufacturing & Industrial,2006,manufacturing technology,-0.5450733752620546
+Manufacturing & Industrial,2006,industry 4.0,0.03023705853894534
+Manufacturing & Industrial,2006,smart manufacturing,0.0
+Manufacturing & Industrial,2007,industrial automation,-0.14159006611836802
+Manufacturing & Industrial,2007,manufacturing technology,-0.2610062893081761
+Manufacturing & Industrial,2007,industry 4.0,0.0
+Manufacturing & Industrial,2007,smart manufacturing,0.0
+Manufacturing & Industrial,2008,industrial automation,-0.12465731333655862
+Manufacturing & Industrial,2008,manufacturing technology,-0.3496210288663119
+Manufacturing & Industrial,2008,industry 4.0,-0.01773907434284793
+Manufacturing & Industrial,2008,smart manufacturing,0.01685212062570553
+Manufacturing & Industrial,2009,industrial automation,-0.12796323173681665
+Manufacturing & Industrial,2009,manufacturing technology,-0.1520722464118691
+Manufacturing & Industrial,2009,industry 4.0,0.0
+Manufacturing & Industrial,2009,smart manufacturing,0.055233026931140156
+Manufacturing & Industrial,2010,industrial automation,-0.07966457023060795
+Manufacturing & Industrial,2010,manufacturing technology,-0.2508466376390905
+Manufacturing & Industrial,2010,industry 4.0,-0.009595226576358654
+Manufacturing & Industrial,2010,smart manufacturing,-0.005482986615062084
+Manufacturing & Industrial,2011,industrial automation,-0.045073375262054474
+Manufacturing & Industrial,2011,manufacturing technology,-0.05894210611191739
+Manufacturing & Industrial,2011,industry 4.0,0.0
+Manufacturing & Industrial,2011,smart manufacturing,0.016771488469601685
+Manufacturing & Industrial,2012,industrial automation,-0.05926463473633285
+Manufacturing & Industrial,2012,manufacturing technology,-0.12635058861473955
+Manufacturing & Industrial,2012,industry 4.0,0.0
+Manufacturing & Industrial,2012,smart manufacturing,-0.027092404450895013
+Manufacturing & Industrial,2013,industrial automation,-0.11731978713110788
+Manufacturing & Industrial,2013,manufacturing technology,-0.06789227543944523
+Manufacturing & Industrial,2013,industry 4.0,0.05853894533139817
+Manufacturing & Industrial,2013,smart manufacturing,0.021770682148040652
+Manufacturing & Industrial,2014,industrial automation,0.0070956297371392064
+Manufacturing & Industrial,2014,manufacturing technology,-0.04104176745686177
+Manufacturing & Industrial,2014,industry 4.0,0.20343492985002423
+Manufacturing & Industrial,2014,smart manufacturing,0.03975165295920015
+Manufacturing & Industrial,2015,industrial automation,-0.0813578455087889
+Manufacturing & Industrial,2015,manufacturing technology,-0.07273020480567645
+Manufacturing & Industrial,2015,industry 4.0,0.3231736816642478
+Manufacturing & Industrial,2015,smart manufacturing,0.01902918884050961
+Manufacturing & Industrial,2016,industrial automation,0.008305112078697014
+Manufacturing & Industrial,2016,manufacturing technology,0.026044186421544994
+Manufacturing & Industrial,2016,industry 4.0,0.5475729721012741
+Manufacturing & Industrial,2016,smart manufacturing,0.018061602967263356
+Manufacturing & Industrial,2017,industrial automation,-0.030156426382841474
+Manufacturing & Industrial,2017,manufacturing technology,-0.12796323173681665
+Manufacturing & Industrial,2017,industry 4.0,0.38638929204966954
+Manufacturing & Industrial,2017,smart manufacturing,0.02612481857764877
+Manufacturing & Industrial,2018,industrial automation,-0.11433639735526525
+Manufacturing & Industrial,2018,manufacturing technology,-0.18214804063860668
+Manufacturing & Industrial,2018,industry 4.0,0.13530075794226745
+Manufacturing & Industrial,2018,smart manufacturing,-0.014433155942589896
+Manufacturing & Industrial,2019,industrial automation,0.030478955007256902
+Manufacturing & Industrial,2019,manufacturing technology,-0.06490888566360263
+Manufacturing & Industrial,2019,industry 4.0,0.12594742783422033
+Manufacturing & Industrial,2019,smart manufacturing,0.0035478148685695945
+Manufacturing & Industrial,2020,industrial automation,-0.14029995162070635
+Manufacturing & Industrial,2020,manufacturing technology,-0.04975004031607803
+Manufacturing & Industrial,2020,industry 4.0,-0.5460409611353008
+Manufacturing & Industrial,2020,smart manufacturing,0.012497984196097416
+Sports & Recreation,2005,fitness technology,-0.002580228995323336
+Sports & Recreation,2005,sports technology,-0.0029833897758426054
+Sports & Recreation,2005,wellness,0.04208998548621189
+Sports & Recreation,2005,fitness apps,0.0
+Sports & Recreation,2006,fitness technology,0.0
+Sports & Recreation,2006,sports technology,0.0004031607805192711
+Sports & Recreation,2006,wellness,-0.055233026931140176
+Sports & Recreation,2006,fitness apps,0.0
+Sports & Recreation,2007,fitness technology,0.0
+Sports & Recreation,2007,sports technology,-0.002015803902596356
+Sports & Recreation,2007,wellness,0.15029833897758427
+Sports & Recreation,2007,fitness apps,0.0
+Sports & Recreation,2008,fitness technology,0.0
+Sports & Recreation,2008,sports technology,-0.0020964360587002098
+Sports & Recreation,2008,wellness,-0.05918400258022904
+Sports & Recreation,2008,fitness apps,0.0
+Sports & Recreation,2009,fitness technology,0.0
+Sports & Recreation,2009,sports technology,-0.002015803902596355
+Sports & Recreation,2009,wellness,0.04128366392517337
+Sports & Recreation,2009,fitness apps,0.0
+Sports & Recreation,2010,fitness technology,0.0
+Sports & Recreation,2010,sports technology,2.1028488013541044e-18
+Sports & Recreation,2010,wellness,-0.16247379454926622
+Sports & Recreation,2010,fitness apps,0.0025802289953233354
+Sports & Recreation,2011,fitness technology,0.0
+Sports & Recreation,2011,sports technology,2.1028488013541044e-18
+Sports & Recreation,2011,wellness,-0.10070956297371396
+Sports & Recreation,2011,fitness apps,0.0041928721174004195
+Sports & Recreation,2012,fitness technology,0.0
+Sports & Recreation,2012,sports technology,0.0
+Sports & Recreation,2012,wellness,-0.08667956781164335
+Sports & Recreation,2012,fitness apps,-2.1028488013541044e-18
+Sports & Recreation,2013,fitness technology,0.0
+Sports & Recreation,2013,sports technology,-0.002015803902596356
+Sports & Recreation,2013,wellness,-0.05095952265763589
+Sports & Recreation,2013,fitness apps,-0.002015803902596358
+Sports & Recreation,2014,fitness technology,0.0
+Sports & Recreation,2014,sports technology,-0.004112239961296565
+Sports & Recreation,2014,wellness,-0.05958716336074829
+Sports & Recreation,2014,fitness apps,-0.0014513788098693779
+Sports & Recreation,2015,fitness technology,0.0
+Sports & Recreation,2015,sports technology,-0.002015803902596355
+Sports & Recreation,2015,wellness,0.0343492985002419
+Sports & Recreation,2015,fitness apps,-0.00854700854700855
+Sports & Recreation,2016,fitness technology,0.0
+Sports & Recreation,2016,sports technology,-0.002257700370907916
+Sports & Recreation,2016,wellness,-0.004837929366231267
+Sports & Recreation,2016,fitness apps,-0.003950975649088858
+Sports & Recreation,2017,fitness technology,0.0
+Sports & Recreation,2017,sports technology,0.0
+Sports & Recreation,2017,wellness,-0.15666827930978874
+Sports & Recreation,2017,fitness apps,0.0
+Sports & Recreation,2018,fitness technology,0.0
+Sports & Recreation,2018,sports technology,-0.007660054829866152
+Sports & Recreation,2018,wellness,-0.02217384292855994
+Sports & Recreation,2018,fitness apps,-0.002015803902596358
+Sports & Recreation,2019,fitness technology,0.0
+Sports & Recreation,2019,sports technology,0.0009675858732462505
+Sports & Recreation,2019,wellness,0.18746976294146106
+Sports & Recreation,2019,fitness apps,-0.002015803902596358
+Sports & Recreation,2020,fitness technology,0.0
+Sports & Recreation,2020,sports technology,0.0030640219319464615
+Sports & Recreation,2020,wellness,-0.19916142557651997
+Sports & Recreation,2020,fitness apps,-0.006208676019996778
+Communications & Telecom,2005,telecommunications,-0.04257377842283503
+Communications & Telecom,2005,communication technology,-0.0037090791807772943
+Communications & Telecom,2005,5g technology,0.0
+Communications & Telecom,2005,telecom,0.010401548137397186
+Communications & Telecom,2006,telecommunications,-0.03410740203193034
+Communications & Telecom,2006,communication technology,-0.002015803902596356
+Communications & Telecom,2006,5g technology,0.0
+Communications & Telecom,2006,telecom,-0.127801967424609
+Communications & Telecom,2007,telecommunications,-0.02604418642154491
+Communications & Telecom,2007,communication technology,-0.002015803902596356
+Communications & Telecom,2007,5g technology,0.0
+Communications & Telecom,2007,telecom,-0.16505402354458962
+Communications & Telecom,2008,telecommunications,-0.027092404450895016
+Communications & Telecom,2008,communication technology,-0.002015803902596356
+Communications & Telecom,2008,5g technology,0.0
+Communications & Telecom,2008,telecom,-0.13199483954200938
+Communications & Telecom,2009,telecommunications,-0.009595226576358652
+Communications & Telecom,2009,communication technology,0.0
+Communications & Telecom,2009,5g technology,0.0
+Communications & Telecom,2009,telecom,0.010401548137397194
+Communications & Telecom,2010,telecommunications,-0.014110627318174487
+Communications & Telecom,2010,communication technology,0.0
+Communications & Telecom,2010,5g technology,0.0
+Communications & Telecom,2010,telecom,-0.3126108692146428
+Communications & Telecom,2011,telecommunications,-0.009756490888566359
+Communications & Telecom,2011,communication technology,1.7346436489261497e-19
+Communications & Telecom,2011,5g technology,0.0
+Communications & Telecom,2011,telecom,-0.3977584260603129
+Communications & Telecom,2012,telecommunications,-0.01685212062570553
+Communications & Telecom,2012,communication technology,0.006128043863892921
+Communications & Telecom,2012,5g technology,0.0
+Communications & Telecom,2012,telecom,-0.25205611998064825
+Communications & Telecom,2013,telecommunications,-0.021044992743105954
+Communications & Telecom,2013,communication technology,-0.005402354458958232
+Communications & Telecom,2013,5g technology,0.0
+Communications & Telecom,2013,telecom,-0.05620061280438641
+Communications & Telecom,2014,telecommunications,-0.019271085308821156
+Communications & Telecom,2014,communication technology,-0.004273504273504274
+Communications & Telecom,2014,5g technology,0.0
+Communications & Telecom,2014,telecom,-0.11175616835994197
+Communications & Telecom,2015,telecommunications,-0.01435252378648605
+Communications & Telecom,2015,communication technology,-0.002015803902596355
+Communications & Telecom,2015,5g technology,0.0
+Communications & Telecom,2015,telecom,-0.2187550395097565
+Communications & Telecom,2016,telecommunications,-0.0067731011127237515
+Communications & Telecom,2016,communication technology,-0.0038703434929850005
+Communications & Telecom,2016,5g technology,0.0
+Communications & Telecom,2016,telecom,-0.3243831640058056
+Communications & Telecom,2017,telecommunications,-0.02499596839219481
+Communications & Telecom,2017,communication technology,-0.0066924689566199
+Communications & Telecom,2017,5g technology,0.0
+Communications & Telecom,2017,telecom,0.0024995968392194905
+Communications & Telecom,2018,telecommunications,-0.02193194646024835
+Communications & Telecom,2018,communication technology,-0.007418158361554589
+Communications & Telecom,2018,5g technology,0.00419287211740042
+Communications & Telecom,2018,telecom,-0.196903725205612
+Communications & Telecom,2019,telecommunications,-0.017900338655055633
+Communications & Telecom,2019,communication technology,0.00016126431220771017
+Communications & Telecom,2019,5g technology,-0.0023383325270117717
+Communications & Telecom,2019,telecom,-0.013788098693759054
+Communications & Telecom,2020,telecommunications,-0.023625221738429285
+Communications & Telecom,2020,communication technology,0.02233510724076762
+Communications & Telecom,2020,5g technology,-0.014916948879213032
+Communications & Telecom,2020,telecom,-0.10659571036929529
+Energy & Clean Tech,2005,clean energy,0.005241090146750526
+Energy & Clean Tech,2005,renewable energy,-0.03378487340751488
+Energy & Clean Tech,2005,cleantech,-0.0010482180293501036
+Energy & Clean Tech,2005,solar energy,-0.080712788259958
+Energy & Clean Tech,2005,energy technology,-0.010320915981293338
+Energy & Clean Tech,2006,clean energy,-0.03378487340751492
+Energy & Clean Tech,2006,renewable energy,-0.25778100306402196
+Energy & Clean Tech,2006,cleantech,0.0334623447830995
+Energy & Clean Tech,2006,solar energy,-0.520480567650379
+Energy & Clean Tech,2006,energy technology,-0.07006934365424933
+Energy & Clean Tech,2007,clean energy,0.022496371552975333
+Energy & Clean Tech,2007,renewable energy,-0.025560393484921763
+Energy & Clean Tech,2007,cleantech,0.026527979358168044
+Energy & Clean Tech,2007,solar energy,-0.060232220609579064
+Energy & Clean Tech,2007,energy technology,0.0007256894049346877
+Energy & Clean Tech,2008,clean energy,0.05507176261893244
+Energy & Clean Tech,2008,renewable energy,0.02749556523141434
+Energy & Clean Tech,2008,cleantech,-0.005724883083373649
+Energy & Clean Tech,2008,solar energy,-0.06482825350749875
+Energy & Clean Tech,2008,energy technology,0.012659248508305116
+Energy & Clean Tech,2009,clean energy,0.018061602967263356
+Energy & Clean Tech,2009,renewable energy,-0.1691662635058861
+Energy & Clean Tech,2009,cleantech,0.014916948879213035
+Energy & Clean Tech,2009,solar energy,-0.36292533462344784
+Energy & Clean Tech,2009,energy technology,-0.008305112078696978
+Energy & Clean Tech,2010,clean energy,-0.08264796000645058
+Energy & Clean Tech,2010,renewable energy,-0.2994678277697146
+Energy & Clean Tech,2010,cleantech,-0.011772294791162714
+Energy & Clean Tech,2010,solar energy,-0.45903886469924204
+Energy & Clean Tech,2010,energy technology,-0.0343492985002419
+Energy & Clean Tech,2011,clean energy,-0.05063699403322043
+Energy & Clean Tech,2011,renewable energy,-0.20416061925495885
+Energy & Clean Tech,2011,cleantech,-0.032817287534268665
+Energy & Clean Tech,2011,solar energy,-0.2885824866956942
+Energy & Clean Tech,2011,energy technology,-0.045718432510885344
+Energy & Clean Tech,2012,clean energy,-0.11167553620383809
+Energy & Clean Tech,2012,renewable energy,-0.1992420577326238
+Energy & Clean Tech,2012,cleantech,-0.041444928237381065
+Energy & Clean Tech,2012,solar energy,-0.4111433639735527
+Energy & Clean Tech,2012,energy technology,-0.041686824705692634
+Energy & Clean Tech,2013,clean energy,-0.0832930172552814
+Energy & Clean Tech,2013,renewable energy,-0.2177068214804064
+Energy & Clean Tech,2013,cleantech,-0.031527173036607
+Energy & Clean Tech,2013,solar energy,-0.2723754233188196
+Energy & Clean Tech,2013,energy technology,-0.04668601838413159
+Energy & Clean Tech,2014,clean energy,-0.03249475890985324
+Energy & Clean Tech,2014,renewable energy,-0.12780196742460892
+Energy & Clean Tech,2014,cleantech,-0.031527173036606994
+Energy & Clean Tech,2014,solar energy,-0.16650540235445896
+Energy & Clean Tech,2014,energy technology,-0.03652636671504596
+Energy & Clean Tech,2015,clean energy,0.020480567650378978
+Energy & Clean Tech,2015,renewable energy,-0.031043380099983846
+Energy & Clean Tech,2015,cleantech,-0.00903080148363167
+Energy & Clean Tech,2015,solar energy,-0.007660054829866088
+Energy & Clean Tech,2015,energy technology,-0.010320915981293336
+Energy & Clean Tech,2016,clean energy,0.003144654088050325
+Energy & Clean Tech,2016,renewable energy,-0.01032091598129333
+Energy & Clean Tech,2016,cleantech,-0.013304305757135945
+Energy & Clean Tech,2016,solar energy,-0.21165940977261732
+Energy & Clean Tech,2016,energy technology,-0.02604418642154491
+Energy & Clean Tech,2017,clean energy,-0.06990807934204162
+Energy & Clean Tech,2017,renewable energy,-0.2741493307531044
+Energy & Clean Tech,2017,cleantech,-0.02120625705531366
+Energy & Clean Tech,2017,solar energy,-0.3330914368650217
+Energy & Clean Tech,2017,energy technology,-0.032010965973230124
+Energy & Clean Tech,2018,clean energy,-0.040880503144654086
+Energy & Clean Tech,2018,renewable energy,-0.2106111917432672
+Energy & Clean Tech,2018,cleantech,-0.023463957426221583
+Energy & Clean Tech,2018,solar energy,-0.287050475729721
+Energy & Clean Tech,2018,energy technology,-0.03523625221738429
+Energy & Clean Tech,2019,clean energy,-0.012578616352201248
+Energy & Clean Tech,2019,renewable energy,-0.09192065795839378
+Energy & Clean Tech,2019,cleantech,-0.0018545395903886448
+Energy & Clean Tech,2019,solar energy,-0.20222544750846633
+Energy & Clean Tech,2019,energy technology,-0.006369940332204483
+Energy & Clean Tech,2020,clean energy,0.24496049024350916
+Energy & Clean Tech,2020,renewable energy,-0.04999193678438956
+Energy & Clean Tech,2020,cleantech,-0.015965166908563134
+Energy & Clean Tech,2020,solar energy,-0.08208353491372355
+Energy & Clean Tech,2020,energy technology,0.029269472665699094
+Enterprise & Business Services,2005,business software,-0.4950008063215611
+Enterprise & Business Services,2005,enterprise solutions,-0.01790033865505564
+Enterprise & Business Services,2005,business services,-0.4064666989195291
+Enterprise & Business Services,2005,b2b software,-0.00532172230285438
+Enterprise & Business Services,2006,business software,-0.46016771488469616
+Enterprise & Business Services,2006,enterprise solutions,-0.036284470246734396
+Enterprise & Business Services,2006,business services,-0.3334139654894372
+Enterprise & Business Services,2006,b2b software,-0.001451378809869376
+Enterprise & Business Services,2007,business software,-0.2858409933881632
+Enterprise & Business Services,2007,enterprise solutions,-0.037816481212707635
+Enterprise & Business Services,2007,business services,-0.3309143686502178
+Enterprise & Business Services,2007,b2b software,0.002822125463634899
+Enterprise & Business Services,2008,business software,-0.36784389614578294
+Enterprise & Business Services,2008,enterprise solutions,-0.03265602322206096
+Enterprise & Business Services,2008,business services,-0.3880019351717466
+Enterprise & Business Services,2008,b2b software,-0.0020158039025963592
+Enterprise & Business Services,2009,business software,-0.11127237542331885
+Enterprise & Business Services,2009,enterprise solutions,-0.00048379293662311645
+Enterprise & Business Services,2009,business services,-0.11006289308176097
+Enterprise & Business Services,2009,b2b software,-0.004192872117400419
+Enterprise & Business Services,2010,business software,-0.403241412675375
+Enterprise & Business Services,2010,enterprise solutions,-0.03265602322206096
+Enterprise & Business Services,2010,business services,-0.382760845024996
+Enterprise & Business Services,2010,b2b software,0.0021770682148040655
+Enterprise & Business Services,2011,business software,-0.25729721012739887
+Enterprise & Business Services,2011,enterprise solutions,-0.0063699403322044785
+Enterprise & Business Services,2011,business services,-0.33075310433801003
+Enterprise & Business Services,2011,b2b software,-0.006208676019996776
+Enterprise & Business Services,2012,business software,-0.25503950975649087
+Enterprise & Business Services,2012,enterprise solutions,-0.03096274794388003
+Enterprise & Business Services,2012,business services,-0.3642154491211096
+Enterprise & Business Services,2012,b2b software,-0.001370746653765522
+Enterprise & Business Services,2013,business software,-0.26269956458635707
+Enterprise & Business Services,2013,enterprise solutions,-0.013304305757135943
+Enterprise & Business Services,2013,business services,-0.2690695049185615
+Enterprise & Business Services,2013,b2b software,0.0
+Enterprise & Business Services,2014,business software,-0.23294629898403488
+Enterprise & Business Services,2014,enterprise solutions,-0.025237864860506366
+Enterprise & Business Services,2014,business services,-0.3166424770198355
+Enterprise & Business Services,2014,b2b software,0.0
+Enterprise & Business Services,2015,business software,-0.20141912594742786
+Enterprise & Business Services,2015,enterprise solutions,-0.02910820835349137
+Enterprise & Business Services,2015,business services,-0.22972101273988066
+Enterprise & Business Services,2015,b2b software,0.0
+Enterprise & Business Services,2016,business software,-0.07450411223996128
+Enterprise & Business Services,2016,enterprise solutions,-0.009837123044670213
+Enterprise & Business Services,2016,business services,-0.2796323173681664
+Enterprise & Business Services,2016,b2b software,0.0011288501854539593
+Enterprise & Business Services,2017,business software,-0.03362360909530721
+Enterprise & Business Services,2017,enterprise solutions,-0.005886147395581358
+Enterprise & Business Services,2017,business services,-0.2436703757458475
+Enterprise & Business Services,2017,b2b software,0.006208676019996776
+Enterprise & Business Services,2018,business software,-0.11860990162876958
+Enterprise & Business Services,2018,enterprise solutions,-0.00782131914207386
+Enterprise & Business Services,2018,business services,-0.2658442186744074
+Enterprise & Business Services,2018,b2b software,-0.003386550556361877
+Enterprise & Business Services,2019,business software,0.03217223028543785
+Enterprise & Business Services,2019,enterprise solutions,0.0008869537171423966
+Enterprise & Business Services,2019,business services,-0.10159651669085629
+Enterprise & Business Services,2019,b2b software,0.0025802289953233367
+Enterprise & Business Services,2020,business software,-0.037413320432188354
+Enterprise & Business Services,2020,enterprise solutions,-0.02152878567972908
+Enterprise & Business Services,2020,business services,-0.22093210772456057
+Enterprise & Business Services,2020,b2b software,0.0
+Security & Privacy,2005,cybersecurity,0.002177068214804064
+Security & Privacy,2005,information security,-0.27237542331881953
+Security & Privacy,2005,data privacy,-0.00766005482986614
+Security & Privacy,2005,network security,-0.39945170133849384
+Security & Privacy,2006,cybersecurity,-0.015723270440251576
+Security & Privacy,2006,information security,-0.28834059022738273
+Security & Privacy,2006,data privacy,-0.06313497822931785
+Security & Privacy,2006,network security,-0.36292533462344784
+Security & Privacy,2007,cybersecurity,0.0209643605870021
+Security & Privacy,2007,information security,-0.2573778422835027
+Security & Privacy,2007,data privacy,-0.01741654571843251
+Security & Privacy,2007,network security,-0.26366715045960337
+Security & Privacy,2008,cybersecurity,0.0058861473955813615
+Security & Privacy,2008,information security,-0.22625383002741498
+Security & Privacy,2008,data privacy,-0.02096436058700209
+Security & Privacy,2008,network security,-0.15255603934849218
+Security & Privacy,2009,cybersecurity,0.08143847766489277
+Security & Privacy,2009,information security,-0.14586357039187228
+Security & Privacy,2009,data privacy,-0.022335107240767618
+Security & Privacy,2009,network security,0.013223673601032108
+Security & Privacy,2010,cybersecurity,-0.0037090791807772895
+Security & Privacy,2010,information security,-0.21085308821157875
+Security & Privacy,2010,data privacy,-0.04386389292049668
+Security & Privacy,2010,network security,-0.15505563618771168
+Security & Privacy,2011,cybersecurity,0.030801483631672327
+Security & Privacy,2011,information security,-0.21359458151910984
+Security & Privacy,2011,data privacy,-0.03515562006128044
+Security & Privacy,2011,network security,-0.2587485889372682
+Security & Privacy,2012,cybersecurity,0.004918561522335112
+Security & Privacy,2012,information security,-0.20351556200612805
+Security & Privacy,2012,data privacy,-0.038622802773746176
+Security & Privacy,2012,network security,-0.2843896145782938
+Security & Privacy,2013,cybersecurity,-0.06337687469762941
+Security & Privacy,2013,information security,-0.1715852281890018
+Security & Privacy,2013,data privacy,-0.01540074181583615
+Security & Privacy,2013,network security,-0.15618448637316565
+Security & Privacy,2014,cybersecurity,0.0983712304467022
+Security & Privacy,2014,information security,-0.14126753749395254
+Security & Privacy,2014,data privacy,-0.06361877116594097
+Security & Privacy,2014,network security,-0.13747782615707144
+Security & Privacy,2015,cybersecurity,0.19045315271730373
+Security & Privacy,2015,information security,-0.14263828414771806
+Security & Privacy,2015,data privacy,-0.027253668763102715
+Security & Privacy,2015,network security,-0.05015320109659731
+Security & Privacy,2016,cybersecurity,0.060474117077890736
+Security & Privacy,2016,information security,-0.015481373971939955
+Security & Privacy,2016,data privacy,-0.009675858732462498
+Security & Privacy,2016,network security,-0.0008869537171423752
+Security & Privacy,2017,cybersecurity,0.1379616190936946
+Security & Privacy,2017,information security,-0.18626028059990327
+Security & Privacy,2017,data privacy,0.07192388324463797
+Security & Privacy,2017,network security,-0.04410578938880826
+Security & Privacy,2018,cybersecurity,0.27052088372843097
+Security & Privacy,2018,information security,-0.11207869698435734
+Security & Privacy,2018,data privacy,-0.07587485889372682
+Security & Privacy,2018,network security,-0.04265441057893887
+Security & Privacy,2019,cybersecurity,0.23302693114013878
+Security & Privacy,2019,information security,-0.051443315594258965
+Security & Privacy,2019,data privacy,0.04015481373971943
+Security & Privacy,2019,network security,-0.021044992743105933
+Security & Privacy,2020,cybersecurity,0.0008063215610385718
+Security & Privacy,2020,information security,0.0022577003709079563
+Security & Privacy,2020,data privacy,-0.12941461054668602
+Security & Privacy,2020,network security,-0.02459280761167552
+AI & Machine Learning,2005,artificial intelligence,-0.4950008063215611
+AI & Machine Learning,2005,machine learning,-0.11586840832123851
+AI & Machine Learning,2005,deep learning,0.011288501854539595
+AI & Machine Learning,2005,ai technology,0.006773101112723755
+AI & Machine Learning,2006,artificial intelligence,-0.29221093372036766
+AI & Machine Learning,2006,machine learning,-0.1065957103692953
+AI & Machine Learning,2006,deep learning,-0.005966779551685212
+AI & Machine Learning,2006,ai technology,0.0
+AI & Machine Learning,2007,artificial intelligence,-0.2401225608772779
+AI & Machine Learning,2007,machine learning,-0.06982744718593775
+AI & Machine Learning,2007,deep learning,0.016368327689082404
+AI & Machine Learning,2007,ai technology,0.0026608611514271907
+AI & Machine Learning,2008,artificial intelligence,-0.28116432833413973
+AI & Machine Learning,2008,machine learning,-0.07982583454281567
+AI & Machine Learning,2008,deep learning,0.0313659087243993
+AI & Machine Learning,2008,ai technology,0.0056442509272697965
+AI & Machine Learning,2009,artificial intelligence,0.1631188517980972
+AI & Machine Learning,2009,machine learning,0.037897113368811505
+AI & Machine Learning,2009,deep learning,-0.005724883083373646
+AI & Machine Learning,2009,ai technology,-0.007418158361554588
+AI & Machine Learning,2010,artificial intelligence,-0.17682631833575232
+AI & Machine Learning,2010,machine learning,-0.012497984196097395
+AI & Machine Learning,2010,deep learning,-0.0004837929366231177
+AI & Machine Learning,2010,ai technology,-0.0071762618932430244
+AI & Machine Learning,2011,artificial intelligence,0.43702628608288996
+AI & Machine Learning,2011,machine learning,0.1977100467666506
+AI & Machine Learning,2011,deep learning,0.008869537171423966
+AI & Machine Learning,2011,ai technology,0.00628930817610063
+AI & Machine Learning,2012,artificial intelligence,-0.3016448959845187
+AI & Machine Learning,2012,machine learning,0.07990646669891956
+AI & Machine Learning,2012,deep learning,0.06523141428801807
+AI & Machine Learning,2012,ai technology,-0.014433155942589907
+AI & Machine Learning,2013,artificial intelligence,-0.032333494597645535
+AI & Machine Learning,2013,machine learning,0.2947105305595873
+AI & Machine Learning,2013,deep learning,0.11111111111111113
+AI & Machine Learning,2013,ai technology,-0.00306402193194646
+AI & Machine Learning,2014,artificial intelligence,0.15457184325108855
+AI & Machine Learning,2014,machine learning,0.24608934042896316
+AI & Machine Learning,2014,deep learning,0.1465086276407032
+AI & Machine Learning,2014,ai technology,0.00048379293662312534
+AI & Machine Learning,2015,artificial intelligence,0.11586840832123853
+AI & Machine Learning,2015,machine learning,0.49113046282857614
+AI & Machine Learning,2015,deep learning,0.22681825512014198
+AI & Machine Learning,2015,ai technology,0.004596032897919692
+AI & Machine Learning,2016,artificial intelligence,0.16868247056926308
+AI & Machine Learning,2016,machine learning,0.6762618932430254
+AI & Machine Learning,2016,deep learning,0.30140299951620714
+AI & Machine Learning,2016,ai technology,0.009030801483631676
+AI & Machine Learning,2017,artificial intelligence,0.5173359135623288
+AI & Machine Learning,2017,machine learning,0.5634575068537333
+AI & Machine Learning,2017,deep learning,0.16795678116432838
+AI & Machine Learning,2017,ai technology,0.028624415416868255
+AI & Machine Learning,2018,artificial intelligence,-0.14675052410901468
+AI & Machine Learning,2018,machine learning,0.11506208676020002
+AI & Machine Learning,2018,deep learning,-8.063215610384983e-05
+AI & Machine Learning,2018,ai technology,0.0010482180293501049
+AI & Machine Learning,2019,artificial intelligence,0.03442993065634579
+AI & Machine Learning,2019,machine learning,0.15086276407031127
+AI & Machine Learning,2019,deep learning,-0.0014513788098693733
+AI & Machine Learning,2019,ai technology,0.00838574423480084
+AI & Machine Learning,2020,artificial intelligence,-0.12957587485889374
+AI & Machine Learning,2020,machine learning,-0.3818738913078536
+AI & Machine Learning,2020,deep learning,-0.15457184325108853
+AI & Machine Learning,2020,ai technology,-0.0024995968392194797
+Customer Service & CRM,2005,crm software,-0.010159651669085631
+Customer Service & CRM,2005,customer service,0.06829543621996453
+Customer Service & CRM,2005,customer experience,0.0003225286244154185
+Customer Service & CRM,2005,help desk software,-0.016287695532978555
+Customer Service & CRM,2006,crm software,-0.014997581035316886
+Customer Service & CRM,2006,customer service,-0.042009353330108065
+Customer Service & CRM,2006,customer experience,-0.003950975649088857
+Customer Service & CRM,2006,help desk software,-0.02330269311401387
+Customer Service & CRM,2007,crm software,-0.017174649250120952
+Customer Service & CRM,2007,customer service,0.20706337687469767
+Customer Service & CRM,2007,customer experience,0.002177068214804064
+Customer Service & CRM,2007,help desk software,-0.0021770682148040633
+Customer Service & CRM,2008,crm software,-0.002015803902596356
+Customer Service & CRM,2008,customer service,0.6234478309950009
+Customer Service & CRM,2008,customer experience,0.0
+Customer Service & CRM,2008,help desk software,-0.0016126431220770847
+Customer Service & CRM,2009,crm software,-0.002015803902596355
+Customer Service & CRM,2009,customer service,0.4721819061441703
+Customer Service & CRM,2009,customer experience,0.0
+Customer Service & CRM,2009,help desk software,-0.004918561522335108
+Customer Service & CRM,2010,crm software,-0.023786486050636994
+Customer Service & CRM,2010,customer service,0.209079180777294
+Customer Service & CRM,2010,customer experience,-0.002015803902596355
+Customer Service & CRM,2010,help desk software,-0.00153201096597323
+Customer Service & CRM,2011,crm software,0.0
+Customer Service & CRM,2011,customer service,0.3309143686502178
+Customer Service & CRM,2011,customer experience,2.1028488013541044e-18
+Customer Service & CRM,2011,help desk software,0.0
+Customer Service & CRM,2012,crm software,-0.002015803902596356
+Customer Service & CRM,2012,customer service,0.3434123528463152
+Customer Service & CRM,2012,customer experience,-0.002015803902596356
+Customer Service & CRM,2012,help desk software,0.0
+Customer Service & CRM,2013,crm software,-0.002015803902596356
+Customer Service & CRM,2013,customer service,0.3174487985808741
+Customer Service & CRM,2013,customer experience,-0.002015803902596356
+Customer Service & CRM,2013,help desk software,0.0
+Customer Service & CRM,2014,crm software,-0.004112239961296565
+Customer Service & CRM,2014,customer service,0.29979035639413004
+Customer Service & CRM,2014,customer experience,-0.002015803902596355
+Customer Service & CRM,2014,help desk software,0.0
+Customer Service & CRM,2015,crm software,-0.004192872117400417
+Customer Service & CRM,2015,customer service,0.38340590227382687
+Customer Service & CRM,2015,customer experience,-0.002015803902596355
+Customer Service & CRM,2015,help desk software,0.0
+Customer Service & CRM,2016,crm software,-0.002741493307531043
+Customer Service & CRM,2016,customer service,0.2142396387679407
+Customer Service & CRM,2016,customer experience,2.1028488013541044e-18
+Customer Service & CRM,2016,help desk software,0.0
+Customer Service & CRM,2017,crm software,-0.0066924689566199005
+Customer Service & CRM,2017,customer service,0.37002096436058707
+Customer Service & CRM,2017,customer experience,-0.002015803902596356
+Customer Service & CRM,2017,help desk software,0.0
+Customer Service & CRM,2018,crm software,0.007660054829866154
+Customer Service & CRM,2018,customer service,0.26181261086921465
+Customer Service & CRM,2018,customer experience,0.0
+Customer Service & CRM,2018,help desk software,0.0
+Customer Service & CRM,2019,crm software,-0.014029995162070633
+Customer Service & CRM,2019,customer service,0.08442186744073535
+Customer Service & CRM,2019,customer experience,0.0
+Customer Service & CRM,2019,help desk software,0.0
+Customer Service & CRM,2020,crm software,-0.008547008547008548
+Customer Service & CRM,2020,customer service,0.2897919690372521
+Customer Service & CRM,2020,customer experience,0.0
+Customer Service & CRM,2020,help desk software,0.0
+HR & Recruiting,2005,recruitment technology,0.003467182712465732
+HR & Recruiting,2005,hr software,-0.007498790517658443
+HR & Recruiting,2005,talent management,-0.00362844702467344
+HR & Recruiting,2005,recruiting,-0.3179325915174972
+HR & Recruiting,2006,recruitment technology,-0.008788905015320111
+HR & Recruiting,2006,hr software,-0.013062409288824385
+HR & Recruiting,2006,talent management,-0.013304305757135948
+HR & Recruiting,2006,recruiting,-0.3518787292372199
+HR & Recruiting,2007,recruitment technology,-0.010965973230124177
+HR & Recruiting,2007,hr software,-0.01048218029350105
+HR & Recruiting,2007,talent management,-0.003225286244154167
+HR & Recruiting,2007,recruiting,-0.29148524431543305
+HR & Recruiting,2008,recruitment technology,-0.0041928721174004195
+HR & Recruiting,2008,hr software,-0.017335913562328657
+HR & Recruiting,2008,talent management,-0.011288501854539593
+HR & Recruiting,2008,recruiting,-0.33051120786969845
+HR & Recruiting,2009,recruitment technology,0.0181422351233672
+HR & Recruiting,2009,hr software,-0.011288501854539593
+HR & Recruiting,2009,talent management,-0.0044347685857119784
+HR & Recruiting,2009,recruiting,-0.25512014191259474
+HR & Recruiting,2010,recruitment technology,-0.012739880664408967
+HR & Recruiting,2010,hr software,-0.0016932752781809385
+HR & Recruiting,2010,talent management,-0.006611836800516044
+HR & Recruiting,2010,recruiting,-0.3151104660538623
+HR & Recruiting,2011,recruitment technology,-0.01088534107402032
+HR & Recruiting,2011,hr software,0.0
+HR & Recruiting,2011,talent management,-0.013949363005966779
+HR & Recruiting,2011,recruiting,-0.25576519916142565
+HR & Recruiting,2012,recruitment technology,-0.00814384776648928
+HR & Recruiting,2012,hr software,0.0
+HR & Recruiting,2012,talent management,-0.01257861635220126
+HR & Recruiting,2012,recruiting,-0.2679406547331076
+HR & Recruiting,2013,recruitment technology,-0.009272697951943238
+HR & Recruiting,2013,hr software,0.0
+HR & Recruiting,2013,talent management,-0.002015803902596356
+HR & Recruiting,2013,recruiting,-0.27156910175778104
+HR & Recruiting,2014,recruitment technology,-0.003305918400258024
+HR & Recruiting,2014,hr software,0.0
+HR & Recruiting,2014,talent management,-0.0058055152394775045
+HR & Recruiting,2014,recruiting,-0.2610869214642801
+HR & Recruiting,2015,recruitment technology,-0.010079019512981778
+HR & Recruiting,2015,hr software,0.0
+HR & Recruiting,2015,talent management,-0.002015803902596355
+HR & Recruiting,2015,recruiting,-0.22343170456378011
+HR & Recruiting,2016,recruitment technology,0.0
+HR & Recruiting,2016,hr software,0.0
+HR & Recruiting,2016,talent management,-0.00975649088856636
+HR & Recruiting,2016,recruiting,-0.23213997742299627
+HR & Recruiting,2017,recruitment technology,0.0
+HR & Recruiting,2017,hr software,0.0
+HR & Recruiting,2017,talent management,-0.006047411707789067
+HR & Recruiting,2017,recruiting,-0.08305112078696986
+HR & Recruiting,2018,recruitment technology,0.0005644250927269801
+HR & Recruiting,2018,hr software,0.0
+HR & Recruiting,2018,talent management,-0.0033865505563618775
+HR & Recruiting,2018,recruiting,0.015642638284147723
+HR & Recruiting,2019,recruitment technology,-0.009353330108047092
+HR & Recruiting,2019,hr software,0.0006450572488308337
+HR & Recruiting,2019,talent management,1.1636364124904328e-19
+HR & Recruiting,2019,recruiting,-0.05224963715529756
+HR & Recruiting,2020,recruitment technology,0.007660054829866153
+HR & Recruiting,2020,hr software,-0.011611030478955007
+HR & Recruiting,2020,talent management,-0.009837123044670215
+HR & Recruiting,2020,recruiting,-0.38735687792291573
+Government & Politics,2005,govtech,0.0
+Government & Politics,2005,government technology,-0.3172875342686663
+Government & Politics,2005,civic technology,0.0
+Government & Politics,2005,public sector technology,0.0838574423480084
+Government & Politics,2006,govtech,0.0
+Government & Politics,2006,government technology,-0.5770037090791807
+Government & Politics,2006,civic technology,-0.0035478148685695854
+Government & Politics,2006,public sector technology,0.0
+Government & Politics,2007,govtech,0.0
+Government & Politics,2007,government technology,-0.1053055958716336
+Government & Politics,2007,civic technology,0.005644250927269801
+Government & Politics,2007,public sector technology,0.0
+Government & Politics,2008,govtech,0.0
+Government & Politics,2008,government technology,-0.1488469601677149
+Government & Politics,2008,civic technology,-0.015239477503628446
+Government & Politics,2008,public sector technology,0.0
+Government & Politics,2009,govtech,0.01064344460570876
+Government & Politics,2009,government technology,-0.16868247056926297
+Government & Politics,2009,civic technology,0.025479761328817938
+Government & Politics,2009,public sector technology,-0.012901144976616674
+Government & Politics,2010,govtech,0.01588453475245928
+Government & Politics,2010,government technology,-0.20077406869859699
+Government & Politics,2010,civic technology,0.002499596839219486
+Government & Politics,2010,public sector technology,0.012497984196097406
+Government & Politics,2011,govtech,0.020561199806482834
+Government & Politics,2011,government technology,-0.14465408805031443
+Government & Politics,2011,civic technology,0.02193194646024835
+Government & Politics,2011,public sector technology,0.03378487340751491
+Government & Politics,2012,govtech,0.019996774713755848
+Government & Politics,2012,government technology,-0.12215771649733913
+Government & Politics,2012,civic technology,-0.024028382518948555
+Government & Politics,2012,public sector technology,0.0028221254636349
+Government & Politics,2013,govtech,0.0524915336236091
+Government & Politics,2013,government technology,-0.06176423157555227
+Government & Politics,2013,civic technology,-0.04499274310595066
+Government & Politics,2013,public sector technology,0.010401548137397196
+Government & Politics,2014,govtech,0.03184970166102242
+Government & Politics,2014,government technology,-0.1491694887921303
+Government & Politics,2014,civic technology,-0.02048056765037897
+Government & Politics,2014,public sector technology,0.0004031607805192738
+Government & Politics,2015,govtech,0.06458635703918723
+Government & Politics,2015,government technology,-0.07305273343009186
+Government & Politics,2015,civic technology,0.0053217223028543875
+Government & Politics,2015,public sector technology,-0.018706660216094177
+Government & Politics,2016,govtech,0.20504757297210136
+Government & Politics,2016,government technology,-0.168118045476536
+Government & Politics,2016,civic technology,-0.0066118368005160435
+Government & Politics,2016,public sector technology,-0.012820512820512822
+Government & Politics,2017,govtech,0.034671827124657315
+Government & Politics,2017,government technology,-0.2360103209159813
+Government & Politics,2017,civic technology,0.005402354458958235
+Government & Politics,2017,public sector technology,0.017335913562328664
+Government & Politics,2018,govtech,0.07281083696178037
+Government & Politics,2018,government technology,-0.24608934042896302
+Government & Politics,2018,civic technology,-0.025076600548298664
+Government & Politics,2018,public sector technology,-0.0007256894049346835
+Government & Politics,2019,govtech,0.08643767134333175
+Government & Politics,2019,government technology,-0.15416868247056925
+Government & Politics,2019,civic technology,-0.02539912917271408
+Government & Politics,2019,public sector technology,0.004112239961296568
+Government & Politics,2020,govtech,-0.043380099983873564
+Government & Politics,2020,government technology,0.523302693114014
+Government & Politics,2020,civic technology,-0.00427350427350427
+Government & Politics,2020,public sector technology,0.017174649250120955
