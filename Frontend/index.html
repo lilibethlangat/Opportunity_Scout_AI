@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Opportunity Scout AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="landing-page">
+        <div class="landing-content">
+            <h1>SCOUT <span class="highlight">AI</span></h1>
+            <button class="btn-primary" onclick="enterApp()">Open Dashboard</button>
+        </div>
+    </div>
+
+    <div id="app-interface" style="display: none;">
+        <nav class="sidebar">
+            <div class="logo">SCOUT <strong>AI</strong></div>
+            <ul class="nav-links">
+                <li onclick="showSection('dashboard')">📊 Dashboard</li>
+                <li onclick="showSection('evaluation')">📝 New Evaluation</li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <section id="sec-dashboard">
+                <div class="stats-grid">
+                    <div class="stat-card"><p>Venture Count</p><h3 id="stat-total">0</h3></div>
+                    <div class="stat-card"><p>Avg Score</p><h3 id="stat-avg-viability">0%</h3></div>
+                </div>
+                <div class="data-container">
+                    <table class="eval-table">
+                        <thead><tr><th>Name</th><th>Industry</th><th>Funding</th><th>Score</th><th>XAI Driver</th></tr></thead>
+                        <tbody id="startup-table-body"></tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="sec-evaluation" style="display: none;">
+                <div class="form-container">
+                    <h2>Venture Evaluation</h2>
+                    <form id="evaluationForm">
+                        <div class="form-row">
+                            <div class="form-group"><label>Name</label><input type="text" id="form-name" required></div>
+                            <div class="form-group"><label>Founded Year</label><input type="number" id="form-year" value="2025"></div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group"><label>Funding (USD)</label><input type="number" id="form-funding" value="100000"></div>
+                            <div class="form-group"><label>Rounds</label><input type="number" id="form-rounds" value="1"></div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Country</label>
+                                <select id="form-country">
+                                    <option>United States</option><option>Estonia</option><option>United Kingdom</option><option>Canada</option><option>India</option>
+                                    </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Industry</label>
+                                <select id="form-industry">
+                                    <option>Technology & Software</option><option>Finance & Fintech</option><option>Healthcare & Life Sciences</option>
+                                    </select>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn-primary" style="width:100%">Run Analysis</button>
+                    </form>
+                    <div id="prediction-result"></div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
