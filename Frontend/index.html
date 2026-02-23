@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Opportunity Scout AI | Precision Venture Analytics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+
+<body>
+    <div id="landing-page">
+        <div class="glass-orb orb-1"></div>
+        <div class="glass-orb orb-2"></div>
+        <div class="landing-content glass-card">
+            <div class="badge">Next-Gen Intelligence</div>
+            <h1>SCOUT <span class="highlight">AI</span></h1>
+            <p class="hero-desc">Identify high-potential startup opportunities using real-world data and machine
+                learning analytics.</p>
+            <button class="btn-primary btn-glow" onclick="enterApp()">Open Dashboard <i
+                    class="fas fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <div id="app-interface" style="display: none;">
+        <nav class="sidebar">
+            <div class="logo" onclick="goToLanding()" style="cursor: pointer;">
+                <span class="logo-icon">▲</span> SCOUT <strong>AI</strong>
+            </div>
+            <ul class="nav-links">
+                <li onclick="showSection('dashboard')" class="active">
+                    <span class="nav-icon">📊</span> Dashboard
+                </li>
+                <li onclick="showSection('evaluation')">
+                    <span class="nav-icon">📝</span> Evaluation
+                </li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <section id="sec-dashboard">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <span class="stat-icon">🚀</span>
+                            <p>Venture Count</p>
+                        </div>
+                        <h3 id="stat-total">0</h3>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <span class="stat-icon">📈</span>
+                            <p>Avg Score</p>
+                        </div>
+                        <h3 id="stat-avg-viability">0%</h3>
+                    </div>
+                </div>
+                <div class="data-container">
+                    <table class="eval-table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Industry</th>
+                                <th>Funding</th>
+                                <th>Score</th>
+                                <th>XAI Driver</th>
+                            </tr>
+                        </thead>
+                        <tbody id="startup-table-body"></tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="sec-evaluation" style="display: none;">
+                <div class="form-container">
+                    <h2>Venture Evaluation</h2>
+                    <form id="evaluationForm">
+                        <div class="form-row">
+                            <div class="form-group"><label>Name</label><input type="text" id="form-name" required></div>
+                            <div class="form-group"><label>Founded Year</label><input type="number" id="form-year"
+                                    value="2025"></div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group"><label>Funding (USD)</label><input type="number" id="form-funding"
+                                    value="100000"></div>
+                            <div class="form-group"><label>Rounds</label><input type="number" id="form-rounds"
+                                    value="1"></div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Country</label>
+                                <select id="form-country">
+                                    <option>United States</option>
+                                    <option>Estonia</option>
+                                    <option>United Kingdom</option>
+                                    <option>Canada</option>
+                                    <option>Germany</option>
+                                    <option>France</option>
+                                    <option>India</option>
+                                    <option>Singapore</option>
+                                    <option>Israel</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Industry</label>
+                                <select id="form-industry">
+                                    <option>AI & Machine Learning</option>
+                                    <option>Technology & Software</option>
+                                    <option>Finance & Fintech</option>
+                                    <option>Healthcare & Life Sciences</option>
+                                    <option>Data & Analytics</option>
+                                    <option>E-Commerce & Retail</option>
+                                    <option>Energy & Clean Tech</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn-primary" style="width:100%">Run Analysis</button>
+                    </form>
+                    <div id="prediction-result"></div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

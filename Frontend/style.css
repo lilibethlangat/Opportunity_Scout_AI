@@ -1,0 +1,374 @@
+/* --- 1. Variables & Root --- */
+:root {
+    --navy-dark: #070b14;
+    --navy-light: #0f172a;
+    --accent-blue: #3b82f6;
+    --accent-blue-glow: rgba(59, 130, 246, 0.5);
+    --accent-green: #10b981;
+    --text-main: #f1f5f9;
+    --text-muted: #94a3b8;
+    --bg-body: #070b14;
+    --glass-bg: rgba(255, 255, 255, 0.03);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --shadow-premium: 0 20px 50px rgba(0, 0, 0, 0.3);
+    --font-outfit: 'Outfit', sans-serif;
+}
+
+/* --- 2. Base Reset --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-outfit);
+}
+
+body {
+    background-color: var(--bg-body);
+    color: var(--text-main);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* --- 3. Landing Page (Mesh Gradient & Glassmorphism) --- */
+#landing-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: var(--navy-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+/* Animated Orbs for Mesh Gradient Effect */
+.glass-orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(100px);
+    opacity: 0.4;
+    z-index: 1;
+    animation: move 20s infinite alternate;
+}
+
+.orb-1 {
+    width: 500px;
+    height: 500px;
+    background: var(--accent-blue);
+    top: -100px;
+    left: -100px;
+}
+
+.orb-2 {
+    width: 600px;
+    height: 600px;
+    background: #4f46e5;
+    bottom: -150px;
+    right: -150px;
+    animation-duration: 30s;
+}
+
+@keyframes move {
+    from {
+        transform: translate(0, 0);
+    }
+
+    to {
+        transform: translate(100px, 100px);
+    }
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    padding: 4rem;
+    border-radius: 32px;
+    text-align: center;
+    max-width: 800px;
+    z-index: 10;
+    box-shadow: var(--shadow-premium);
+}
+
+.badge {
+    display: inline-block;
+    padding: 6px 16px;
+    background: rgba(59, 130, 246, 0.1);
+    color: var(--accent-blue);
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    border-radius: 100px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+
+.landing-content h1 {
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    letter-spacing: -2px;
+}
+
+.highlight {
+    color: var(--accent-blue);
+    text-shadow: 0 0 40px var(--accent-blue-glow);
+}
+
+.hero-desc {
+    font-size: 1.25rem;
+    color: var(--text-muted);
+    max-width: 500px;
+    margin: 0 auto 3rem auto;
+}
+
+/* --- 4. Main App Layout --- */
+#app-interface {
+    display: flex;
+    min-height: 100vh;
+    background: var(--bg-body);
+}
+
+/* Sidebar Navigation */
+.sidebar {
+    width: 280px;
+    background-color: #0d121f;
+    border-right: 1px solid var(--glass-border);
+    height: 100vh;
+    position: fixed;
+    padding: 3rem 2rem;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-icon {
+    color: var(--accent-blue);
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    padding: 14px 1rem;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-links li:hover,
+.nav-links li.active {
+    background: rgba(59, 130, 246, 0.1);
+    color: #fff;
+    transform: translateX(5px);
+}
+
+.nav-icon {
+    font-size: 1.25rem;
+}
+
+/* Main Content Area */
+.content {
+    flex: 1;
+    margin-left: 280px;
+    padding: 4rem;
+}
+
+/* --- 5. Dashboard Elements --- */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.stat-card {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    padding: 2.5rem;
+    border-radius: 24px;
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 1rem;
+}
+
+.stat-icon {
+    font-size: 1.5rem;
+    background: rgba(59, 130, 246, 0.1);
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.stat-card p {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.stat-card h3 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.data-container {
+    background: var(--glass-bg);
+    border-radius: 24px;
+    border: 1px solid var(--glass-border);
+    padding: 1rem;
+}
+
+.eval-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 8px;
+}
+
+.eval-table th {
+    padding: 1.5rem;
+    text-align: left;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.eval-table tbody tr {
+    transition: background 0.2s;
+}
+
+.eval-table tbody tr:hover {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.eval-table td {
+    padding: 1.5rem;
+    font-size: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+/* --- 6. Form Styling --- */
+.form-container {
+    max-width: 900px;
+    background: var(--glass-bg);
+    padding: 4rem;
+    border-radius: 32px;
+    border: 1px solid var(--glass-border);
+}
+
+.form-container h2 {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    font-weight: 800;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--text-muted);
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.4);
+    /* Darker background */
+    border: 1px solid var(--glass-border);
+    border-radius: 14px;
+    color: #fff;
+    font-size: 1rem;
+    transition: all 0.3s;
+    appearance: none;
+    /* Remove default browser styling */
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='white'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1em;
+}
+
+/* Fix for unreadable options on some browsers */
+select option {
+    background-color: #0d121f;
+    color: #fff;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: var(--accent-blue);
+    background: rgba(59, 130, 246, 0.05);
+}
+
+/* --- 7. Buttons & Results --- */
+.btn-primary {
+    background: var(--accent-blue);
+    color: #fff;
+    padding: 18px 36px;
+    border: none;
+    border-radius: 16px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.btn-primary:hover {
+    background: #2563eb;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.4);
+}
+
+.btn-glow {
+    box-shadow: 0 0 40px var(--accent-blue-glow);
+}
+
+#prediction-result {
+    margin-top: 3rem;
+}
