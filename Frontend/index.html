@@ -1,131 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <title>Opportunity Scout AI | Precision Venture Analytics</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Opportunity Scout AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=DM+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
 </head>
-
 <body>
-    <div id="landing-page">
-        <div class="glass-orb orb-1"></div>
-        <div class="glass-orb orb-2"></div>
-        <div class="landing-content glass-card">
-            <div class="badge">Next-Gen Intelligence</div>
-            <h1>SCOUT <span class="highlight">AI</span></h1>
-            <p class="hero-desc">Identify high-potential startup opportunities using real-world data and machine
-                learning analytics.</p>
-            <button class="btn-primary btn-glow" onclick="enterApp()">Open Dashboard <i
-                    class="fas fa-arrow-right"></i></button>
+
+<!-- ═══════════════════════ LANDING PAGE -->
+<div id="landing-page">
+  <nav class="l-nav">
+    <div class="l-logo">
+      <div class="l-logo-icon">+</div>
+      <div>
+        <div class="l-logo-name">Opportunity Scout</div>
+        <div class="l-logo-sub">AI SCORING ENGINE</div>
+      </div>
+    </div>
+    <div class="l-nav-center">
+      <a href="#l-features" class="l-nav-link" onclick="smoothTo('l-features')">Product</a>
+      <a href="#l-process"  class="l-nav-link" onclick="smoothTo('l-process')">How It Works</a>
+      <a href="#l-about"    class="l-nav-link" onclick="smoothTo('l-about')">About</a>
+    </div>
+    <button class="l-btn-cta" onclick="enterApp()">Score My Opportunity →</button>
+  </nav>
+
+  <section class="l-hero">
+    <div class="l-hero-left">
+      <div class="l-hero-tag">+ AI-POWERED STARTUP INTELLIGENCE</div>
+      <h1 class="l-hero-title">Discover Your<br><span class="l-hero-accent">Startup's Score</span></h1>
+      <p class="l-hero-body">
+        Opportunity Scout AI analyses your startup across market, economic, and funding signals, then gives you an explainable 0–100 score tailored to your perspective as an <strong>entrepreneur</strong> or <strong>investor</strong>.
+      </p>
+      <div class="l-hero-btns">
+        <button class="l-btn-primary" onclick="enterApp()">Score My Opportunity →</button>
+        <button class="l-btn-ghost" onclick="document.getElementById('l-process').scrollIntoView({behavior:'smooth'})">See How It Works ↓</button>
+      </div>
+    </div>
+    <div class="l-hero-right">
+      <div class="l-sample-card">
+        <div class="l-sample-header">
+          <div>
+            <div class="l-sample-label">SAMPLE SCORE</div>
+            <div class="l-sample-name">Kenya Fintech Startup</div>
+            <div class="l-sample-meta">Finance &amp; Fintech · Kenya · 2019 · Investor View</div>
+          </div>
+          <div class="l-tier-badge amber">● Medium Potential</div>
         </div>
+        <div class="l-sample-metrics">
+          <div class="l-ring-wrap">
+            <svg class="l-ring" viewBox="0 0 100 100">
+              <circle cx="50" cy="50" r="40" fill="none" stroke="#e9e5fe" stroke-width="8"/>
+              <circle cx="50" cy="50" r="40" fill="none" stroke="#e09d2a" stroke-width="8"
+                stroke-dasharray="150.7 251.2" stroke-dashoffset="62.8"
+                stroke-linecap="round" transform="rotate(-90 50 50)"/>
+            </svg>
+            <div class="l-ring-val">61<span>/100</span></div>
+          </div>
+          <div class="l-sample-stats">
+            <div class="l-stat-item"><div class="l-stat-lbl">CONFIDENCE</div><div class="l-stat-val">85%</div></div>
+            <div class="l-stat-item"><div class="l-stat-lbl">PERCENTILE</div><div class="l-stat-val">72nd</div></div>
+            <div class="l-stat-item"><div class="l-stat-lbl">BASE</div><div class="l-stat-val">51.1</div></div>
+            <div class="l-stat-item"><div class="l-stat-lbl">RANGE</div><div class="l-stat-val">57–65</div></div>
+          </div>
+        </div>
+        <div class="l-sample-bars">
+          <div class="l-bar-row"><span class="l-bar-name">trend slope</span><div class="l-bar-track"><div class="l-bar-fill pos" style="width:90%"></div></div><span class="l-bar-arrow pos">▲</span></div>
+          <div class="l-bar-row"><span class="l-bar-name">gdp growth</span><div class="l-bar-track"><div class="l-bar-fill pos" style="width:72%"></div></div><span class="l-bar-arrow pos">▲</span></div>
+          <div class="l-bar-row"><span class="l-bar-name">market validation</span><div class="l-bar-track"><div class="l-bar-fill pos" style="width:60%"></div></div><span class="l-bar-arrow pos">▲</span></div>
+          <div class="l-bar-row"><span class="l-bar-name">funding total</span><div class="l-bar-track"><div class="l-bar-fill neg" style="width:40%"></div></div><span class="l-bar-arrow neg">▼</span></div>
+        </div>
+        <!-- GDP Context snippet on landing card -->
+        <div class="l-sample-gdp">
+          <span class="gdp-tag">🌍 GDP CONTEXT</span>
+          Kenya's GDP expanded 8.1% in 2010 as telecoms, trade and construction rebounded.
+        </div>
+      </div>
     </div>
+  </section>
 
-    <div id="app-interface" style="display: none;">
-        <nav class="sidebar">
-            <div class="logo" onclick="goToLanding()" style="cursor: pointer;">
-                <span class="logo-icon">▲</span> SCOUT <strong>AI</strong>
+  <div class="l-stats-band">
+    <div class="l-band-stat"><div class="l-band-val">25K+</div><div class="l-band-lbl">VENTURES IN TRAINING SET</div></div>
+    <div class="l-band-stat"><div class="l-band-val">70+</div><div class="l-band-lbl">ENGINEERED FEATURES</div></div>
+    <div class="l-band-stat"><div class="l-band-val">SHAP</div><div class="l-band-lbl">FULL EXPLAINABILITY</div></div>
+    <div class="l-band-stat"><div class="l-band-val">2</div><div class="l-band-lbl">SCORING PROFILES</div></div>
+  </div>
+
+  <div class="l-method-note">
+    <div class="l-method-inner">
+      <span class="l-method-icon">ℹ</span>
+      <p>
+        <strong>How the score is designed:</strong> We built a composite opportunity scoring formula using domain research across market momentum, economic conditions, and funding signals. A LightGBM model was trained on 25,000+ ventures to generalise this formula. <strong>Two profiles:</strong> Entrepreneur weights trend and economic conditions heavily; Investor weights funding validation and ecosystem depth. Market signals are timeless.
+      </p>
+    </div>
+  </div>
+
+  <section class="l-features" id="l-features">
+    <div class="l-section-tag">● What's Inside</div>
+    <h2 class="l-section-title">Everything you need to<br>evaluate an opportunity</h2>
+    <div class="l-feat-grid">
+      <div class="l-feat"><div class="l-feat-icon">👥</div><h3>Dual Scoring Profiles</h3><p>Entrepreneur or Investor view. Each profile weights the 8 signals differently: founding momentum matters more for founders, capital validation matters more for investors.</p></div>
+      <div class="l-feat"><div class="l-feat-icon">🔍</div><h3>SHAP Explanations</h3><p>Understand exactly why your score is what it is. Every factor, its direction, and its precise impact explained for your specific profile.</p></div>
+      <div class="l-feat"><div class="l-feat-icon">🌍</div><h3>GDP Context Engine</h3><p>Every score includes a one-sentence explanation of the economic backdrop behind your target market and year drawn from 100+ historical events and a live AI fallback.</p></div>
+      <div class="l-feat"><div class="l-feat-icon">⚡</div><h3>What-If Simulator</h3><p>Slide funding up, change the year, and see how your score shifts. Plan your best move before you make it.</p></div>
+    </div>
+  </section>
+
+  <section class="l-process" id="l-process">
+    <div class="l-section-tag">● The Process</div>
+    <h2 class="l-section-title">From idea to insight in seconds</h2>
+    <div class="l-process-grid">
+      <div class="l-proc-card"><div class="l-proc-num">01</div><h3>Choose Your Profile</h3><p>Entrepreneur or Investor. Your profile determines how the 8 market signals are weighted, giving you a score from your perspective.</p></div>
+      <div class="l-proc-card"><div class="l-proc-num">02</div><h3>Enter Your Details</h3><p>Name your venture, pick your industry and country, enter founding year and funding raised.</p></div>
+      <div class="l-proc-card"><div class="l-proc-num">03</div><h3>Signals Are Gathered</h3><p>Market trends, GDP data, news sentiment, and Reddit activity are fetched with historical benchmarks as fallback.</p></div>
+      <div class="l-proc-card"><div class="l-proc-num">04</div><h3>SHAP + GDP Explain Why</h3><p>LightGBM scores 80 features. SHAP attributes every point to a driver with GDP context explaining the economic backdrop and actionable improvement recommendations.</p></div>
+    </div>
+  </section>
+
+  <section class="l-about" id="l-about">
+    <div class="l-section-tag">● About This Project</div>
+    <h2 class="l-section-title">Built with ML rigour,<br>designed for clarity</h2>
+    <div class="l-about-grid">
+      <div class="l-about-card"><div class="l-about-icon">🎓</div><h3>Capstone Project</h3><p>Opportunity Scout AI was built as a data science capstone, demonstrating a full production ML pipeline from raw data collection through to a deployed, explainable scoring engine.</p></div>
+      <div class="l-about-card"><div class="l-about-icon">🤖</div><h3>The Model</h3><p>A LightGBM model trained on 25,000+ historical ventures.</p></div>
+      <div class="l-about-card"><div class="l-about-icon">🔎</div><h3>Honest Explainability</h3><p>SHAP attributes every score point to a specific feature. Founding year does not penalise your score, the model evaluates market conditions which are timeless. Training data spans 2005–2020.</p></div>
+      <div class="l-about-card"><div class="l-about-icon">📡</div><h3>Signal Sources</h3><p>Google Trends for market momentum, World Bank for GDP and inflation, Reddit for community density, GDELT for news sentiment with historical CSV benchmarks as fallback when live APIs are unavailable.</p></div>
+    </div>
+  </section>
+
+  <section class="l-cta">
+    <h2>Ready to discover your<br>opportunity score?</h2>
+    <p>It takes a short time. No signup required.</p>
+    <button class="l-btn-cta-white" onclick="enterApp()">Score My Opportunity →</button>
+  </section>
+
+  <footer class="l-footer">
+    <span>+ OPPORTUNITY SCOUT AI · Vicky · Kefa · Lydiah · Jennifer · Lilibeth · CAPSTONE 2026</span>
+    <span>POWERED BY LIGHTGBM + SHAP</span>
+  </footer>
+</div>
+
+<!-- ═══════════════════════ APP -->
+<div id="app-interface" style="display:none;">
+
+  <header class="a-header">
+    <div class="a-logo" onclick="goToLanding()">
+      <div class="a-logo-icon">+</div>
+      <div>
+        <div class="a-logo-name">Opportunity Scout</div>
+        <div class="a-logo-sub">AI SCORING ENGINE</div>
+      </div>
+    </div>
+    <nav class="a-tabs">
+      <button class="a-tab active" id="tab-score"   onclick="switchTab('score')">Score</button>
+      <button class="a-tab"        id="tab-whatif"  onclick="switchTab('whatif')">What-If</button>
+      <button class="a-tab"        id="tab-compare" onclick="switchTab('compare')">Compare</button>
+    </nav>
+    <div class="a-api-status">
+      <span class="a-api-dot" id="api-dot"></span>
+      <span id="api-label">Checking API…</span>
+    </div>
+  </header>
+
+  <main class="a-main">
+
+    <!-- ── SCORE TAB ── -->
+    <div id="tab-score-panel" class="a-panel">
+      <div class="a-card">
+        <h2 class="a-card-title">Score an Opportunity</h2>
+        <p class="a-card-sub">Enter your startup details and get a SHAP-explained opportunity score in seconds.</p>
+
+        <div class="profile-toggle-wrap">
+          <div class="profile-toggle-label">I AM SCORING AS:</div>
+          <div class="profile-toggle">
+            <button class="profile-btn active" id="s-btn-investor"     onclick="setProfile('s','investor')">
+              <span class="profile-icon">💼</span> Investor
+            </button>
+            <button class="profile-btn"        id="s-btn-entrepreneur" onclick="setProfile('s','entrepreneur')">
+              <span class="profile-icon">🚀</span> Entrepreneur
+            </button>
+          </div>
+          <div class="profile-hint" id="s-profile-hint">
+            <strong>Investor view:</strong> Weights funding validation (22%), market trend (20%), news sentiment (18%), and ecosystem depth. Best for evaluating whether a startup deserves capital.
+          </div>
+        </div>
+        <input type="hidden" id="s-user-type" value="investor"/>
+
+        <form id="scoreForm" class="a-form">
+          <div class="a-fg">
+            <label>VENTURE NAME</label>
+            <input type="text" id="s-name" placeholder="e.g. Acme Fintech" required/>
+          </div>
+          <div class="a-form-row">
+            <div class="a-fg">
+              <label>INDUSTRY / CATEGORY</label>
+              <select id="s-industry" required><option value="">Select...</option></select>
             </div>
-            <ul class="nav-links">
-                <li onclick="showSection('dashboard')" class="active">
-                    <span class="nav-icon">📊</span> Dashboard
-                </li>
-                <li onclick="showSection('evaluation')">
-                    <span class="nav-icon">📝</span> Evaluation
-                </li>
-            </ul>
-        </nav>
+            <div class="a-fg">
+              <label>COUNTRY</label>
+              <select id="s-country" required><option value="">Select...</option></select>
+            </div>
+          </div>
+          <div class="a-form-row">
+            <div class="a-fg">
+              <label>FOUNDED YEAR <span class="field-hint">(any year — founding date does not penalise your score)</span></label>
+              <input type="number" id="s-year" value="2019" min="2000" max="2030"/>
+            </div>
+            <div class="a-fg">
+              <label>TOTAL FUNDING (USD)</label>
+              <input type="number" id="s-funding" value="500000" min="0"/>
+            </div>
+          </div>
+          <div class="a-fg" style="max-width:200px;">
+            <label>FUNDING ROUNDS</label>
+            <input type="number" id="s-rounds" value="1" min="0" max="20"/>
+          </div>
+          <div id="form-error" class="form-error" style="display:none;"></div>
+          <button type="submit" class="a-btn-calc">✦ Calculate Score</button>
+        </form>
+      </div>
 
-        <main class="content">
-            <section id="sec-dashboard">
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <div class="stat-header">
-                            <span class="stat-icon">🚀</span>
-                            <p>Venture Count</p>
-                        </div>
-                        <h3 id="stat-total">0</h3>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-header">
-                            <span class="stat-icon">📈</span>
-                            <p>Avg Score</p>
-                        </div>
-                        <h3 id="stat-avg-viability">0%</h3>
-                    </div>
-                </div>
-                <div class="data-container">
-                    <table class="eval-table">
-                        <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>Industry</th>
-                                <th>Funding</th>
-                                <th>Score</th>
-                                <th>XAI Driver</th>
-                            </tr>
-                        </thead>
-                        <tbody id="startup-table-body"></tbody>
-                    </table>
-                </div>
-            </section>
-
-            <section id="sec-evaluation" style="display: none;">
-                <div class="form-container">
-                    <h2>Venture Evaluation</h2>
-                    <form id="evaluationForm">
-                        <div class="form-row">
-                            <div class="form-group"><label>Name</label><input type="text" id="form-name" required></div>
-                            <div class="form-group"><label>Founded Year</label><input type="number" id="form-year"
-                                    value="2025"></div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group"><label>Funding (USD)</label><input type="number" id="form-funding"
-                                    value="100000"></div>
-                            <div class="form-group"><label>Rounds</label><input type="number" id="form-rounds"
-                                    value="1"></div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label>Country</label>
-                                <select id="form-country">
-                                    <option>United States</option>
-                                    <option>Estonia</option>
-                                    <option>United Kingdom</option>
-                                    <option>Canada</option>
-                                    <option>Germany</option>
-                                    <option>France</option>
-                                    <option>India</option>
-                                    <option>Singapore</option>
-                                    <option>Israel</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label>Industry</label>
-                                <select id="form-industry">
-                                    <option>AI & Machine Learning</option>
-                                    <option>Technology & Software</option>
-                                    <option>Finance & Fintech</option>
-                                    <option>Healthcare & Life Sciences</option>
-                                    <option>Data & Analytics</option>
-                                    <option>E-Commerce & Retail</option>
-                                    <option>Energy & Clean Tech</option>
-                                </select>
-                            </div>
-                        </div>
-                        <button type="submit" class="btn-primary" style="width:100%">Run Analysis</button>
-                    </form>
-                    <div id="prediction-result"></div>
-                </div>
-            </section>
-        </main>
+      <div id="score-result" style="display:none;"></div>
     </div>
-    <script src="script.js"></script>
-</body>
 
+    <!-- ── WHAT-IF TAB ── -->
+    <div id="tab-whatif-panel" class="a-panel" style="display:none;">
+      <div class="a-whatif-layout">
+        <div class="a-card">
+          <h2 class="a-card-title">Base Scenario</h2>
+          <p class="a-card-sub" id="wi-prefill-note" style="color:var(--purple);font-size:0.82rem;display:none;">✓ Pre-filled from your last evaluation</p>
+          <div class="profile-toggle-wrap">
+            <div class="profile-toggle-label">SCORING AS:</div>
+            <div class="profile-toggle">
+              <button class="profile-btn active" id="wi-btn-investor"     onclick="setProfile('wi','investor')">
+                <span class="profile-icon">💼</span> Investor
+              </button>
+              <button class="profile-btn"        id="wi-btn-entrepreneur" onclick="setProfile('wi','entrepreneur')">
+                <span class="profile-icon">🚀</span> Entrepreneur
+              </button>
+            </div>
+          </div>
+          <input type="hidden" id="wi-user-type" value="investor"/>
+          <div class="a-form">
+            <div class="a-form-row">
+              <div class="a-fg">
+                <label>INDUSTRY / CATEGORY</label>
+                <select id="wi-industry"><option value="">Select...</option></select>
+              </div>
+              <div class="a-fg">
+                <label>COUNTRY</label>
+                <select id="wi-country"><option value="">Select...</option></select>
+              </div>
+            </div>
+            <div class="a-form-row">
+              <div class="a-fg">
+                <label>FOUNDED YEAR</label>
+                <input type="number" id="wi-year" value="2019" min="2000" max="2030"/>
+              </div>
+              <div class="a-fg">
+                <label>FUNDING (USD)</label>
+                <input type="number" id="wi-funding" value="0" min="0"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="a-card">
+          <h2 class="a-card-title">What if…</h2>
+          <div class="a-slider-group">
+            <div class="a-slider-label">
+              FUNDING
+              <span class="wi-base-val" id="wi-fund-base-label"></span>
+              → <span id="wi-fund-display" class="wi-mod-val">$0</span>
+            </div>
+            <input type="range" id="wi-fund-slider" min="0" max="50000000" step="50000" value="0" class="a-slider"/>
+            <div class="a-slider-minmax"><span>$0</span><span>$50M</span></div>
+          </div>
+          <div class="a-slider-group">
+            <div class="a-slider-label">
+              YEAR
+              <span class="wi-base-val" id="wi-year-base-label"></span>
+              → <span id="wi-year-display" class="wi-mod-val">2019</span>
+            </div>
+            <input type="range" id="wi-year-slider" min="2000" max="2030" value="2019" class="a-slider"/>
+            <div class="a-slider-minmax"><span>2000</span><span>2030</span></div>
+          </div>
+          <button class="a-btn-calc" onclick="runWhatIf()">Run Scenario</button>
+        </div>
+      </div>
+      <div id="whatif-result" style="margin-top:24px;"></div>
+    </div>
+
+    <!-- ── COMPARE TAB ── -->
+    <div id="tab-compare-panel" class="a-panel" style="display:none;">
+      <div class="a-card" style="margin-bottom:16px;padding:20px 24px;">
+        <div class="profile-toggle-wrap" style="margin:0;">
+          <div class="profile-toggle-label">COMPARE AS:</div>
+          <div class="profile-toggle">
+            <button class="profile-btn active" id="cmp-btn-investor"     onclick="setProfile('cmp','investor')">
+              <span class="profile-icon">💼</span> Investor
+            </button>
+            <button class="profile-btn"        id="cmp-btn-entrepreneur" onclick="setProfile('cmp','entrepreneur')">
+              <span class="profile-icon">🚀</span> Entrepreneur
+            </button>
+          </div>
+          <div class="profile-hint" id="cmp-profile-hint">
+            <strong>Investor view:</strong> All opportunities scored using the investor weight profile.
+          </div>
+        </div>
+        <input type="hidden" id="cmp-user-type" value="investor"/>
+      </div>
+      <div id="compare-cards" class="a-compare-cards"></div>
+      <div class="a-compare-actions">
+        <button class="a-btn-ghost" onclick="addCompareCard()">+ Add Opportunity</button>
+        <button class="a-btn-calc"  onclick="runCompare()">Compare All</button>
+      </div>
+      <div id="compare-result" style="margin-top:24px;"></div>
+    </div>
+
+  </main>
+
+  <footer class="a-footer">
+    <span>+ OPPORTUNITY SCOUT AI · CAPSTONE 2026</span>
+    <span>POWERED BY LIGHTGBM + SHAP</span>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
 </html>
