@@ -30,6 +30,8 @@ MANIFEST
 # Ignore data we will not use
 Data_ignore/
 Data_pipeline/requirements.txt
+Data_pipeline/pipeline_index_main
+Data_pipeline/pipeline_index_main_gdp context
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -82,8 +84,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-Data_pipeline/pipeline_index_main
-Data_pipeline/pipeline_index_main_gdp context
+
 
 # IPython
 profile_default/
