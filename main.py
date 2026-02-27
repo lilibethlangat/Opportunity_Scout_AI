@@ -1,12 +1,6 @@
 """
 main.py — Opportunity Scout AI
-Run with: uvicorn main:app --reload --port 8000
-
-New in this version:
-  - user_type field added to all scoring requests ("entrepreneur" | "investor")
-  - gdp_context returned in every /evaluate and /compare response
-  - founding year no longer penalised — model uses market signals, not vintage age
-  - Paths updated for final folder structure (Models/, Data/ subfolders)
+Run with: uvicorn main: app --reload --port 8000
 """
 from __future__ import annotations
 import os
@@ -20,7 +14,7 @@ import pandas as pd
 
 from predictor import OpportunityPredictor
 
-# ── Paths ──────────────────────────────────────────────────────────────────────
+# Paths 
 BASE_DIR       = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH     = os.path.join(BASE_DIR, "Models", "ventures_lightgbm.joblib")
 REFERENCE_PATH = os.path.join(BASE_DIR, "Data",   "venture_features.csv")
@@ -50,7 +44,7 @@ app.add_middleware(
 )
 
 
-# ── Schemas ────────────────────────────────────────────────────────────────────
+# Schemas 
 
 class StartupEval(BaseModel):
     name:              str   = "My Venture"
@@ -88,7 +82,7 @@ def _format(name: str, result: dict) -> dict:
     }
 
 
-# ── Endpoints ──────────────────────────────────────────────────────────────────
+#  Endpoints
 
 @app.get("/health")
 def health():
@@ -218,7 +212,7 @@ def save_startup(data: StartupEval):
         raise HTTPException(500, str(e))
 
 
-# ── Serve Frontend ─────────────────────────────────────────────────────────────
+# Serve Frontend 
 frontend_path = os.path.join(BASE_DIR, "Frontend")
 if os.path.exists(frontend_path):
     app.mount("/", StaticFiles(directory=frontend_path, html=True), name="frontend")
