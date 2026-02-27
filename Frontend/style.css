@@ -1231,3 +1231,233 @@ body {
   padding-bottom: 8px;
   border-bottom: 1px solid var(--border);
 }
+
+
+/* ═══════════════════════════════════════════════════════════════
+   MOBILE & RESPONSIVE STYLES
+   Breakpoints:
+     ≤ 768px  — phones (portrait + landscape)
+     ≤ 1024px — tablets
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── Tablet (≤ 1024px) ──────────────────────────────────────── */
+@media (max-width: 1024px) {
+
+  /* Nav */
+  .l-nav { padding: 16px 32px; }
+  .l-nav-center { gap: 20px; }
+
+  /* Hero */
+  .l-hero { padding: 60px 32px; gap: 40px; }
+
+  /* Sections */
+  .l-features, .l-process { padding: 60px 32px; }
+  .l-about { padding: 60px 32px; }
+  .l-method-note { padding: 20px 32px; }
+  .l-cta { padding: 80px 32px; }
+  .l-footer { padding: 20px 32px; }
+
+  /* App */
+  .a-header { padding: 14px 32px; }
+  .a-main   { padding: 24px 32px; }
+  .a-footer { padding: 16px 32px; }
+
+  /* Results grid */
+  .r-bottom-grid { grid-template-columns: 1fr; }
+
+  /* Stats band */
+  .l-stats-band { gap: 40px; }
+
+  /* 4-col grids → 2-col */
+  .l-feat-grid,
+  .l-process-grid,
+  .l-about-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ── Mobile (≤ 768px) ───────────────────────────────────────── */
+@media (max-width: 768px) {
+
+  /* ── NAV ─────────────────────────────────────────────────── */
+  .l-nav {
+    padding: 14px 20px;
+    flex-wrap: wrap;
+    gap: 12px;
+    position: sticky;
+    top: 0;
+  }
+  /* Hide desktop nav links on small screens */
+  .l-nav-center { display: none; }
+  .l-btn-cta { font-size: 0.82rem; padding: 9px 18px; }
+
+  /* ── HERO ────────────────────────────────────────────────── */
+  .l-hero {
+    grid-template-columns: 1fr;
+    padding: 40px 20px 32px;
+    gap: 36px;
+  }
+  .l-hero-title { font-size: clamp(2rem, 8vw, 2.8rem); }
+  .l-hero-body  { font-size: 0.95rem; margin-bottom: 28px; }
+  .l-hero-btns  { flex-direction: column; gap: 12px; }
+  .l-btn-primary,
+  .l-btn-ghost  { width: 100%; text-align: center; padding: 14px 20px; }
+
+  /* Sample card — tighter on phone */
+  .l-sample-card { padding: 20px; }
+  .l-sample-header { flex-wrap: wrap; gap: 8px; }
+  .l-tier-badge { font-size: 0.68rem; padding: 4px 10px; }
+  .l-sample-metrics { flex-direction: column; align-items: flex-start; gap: 16px; }
+  .l-ring-wrap { width: 76px; height: 76px; }
+  .l-sample-stats { grid-template-columns: repeat(4, 1fr); width: 100%; }
+  .l-bar-name { width: 110px; font-size: 0.75rem; }
+
+  /* ── STATS BAND ──────────────────────────────────────────── */
+  .l-stats-band {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    padding: 0;
+  }
+  .l-band-stat {
+    padding: 24px 20px;
+    border-right: 1px solid rgba(255,255,255,0.15);
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    text-align: center;
+  }
+  .l-band-stat:nth-child(2n) { border-right: none; }
+  .l-band-stat:nth-child(3),
+  .l-band-stat:nth-child(4) { border-bottom: none; }
+  .l-band-val { font-size: 1.8rem; }
+
+  /* ── METHODOLOGY NOTE ────────────────────────────────────── */
+  .l-method-note { padding: 16px 20px; }
+  .l-method-inner { flex-direction: column; gap: 10px; }
+
+  /* ── FEATURES / PROCESS / ABOUT ─────────────────────────── */
+  .l-features, .l-process { padding: 48px 20px; }
+  .l-about { padding: 48px 20px; }
+  .l-section-title { font-size: clamp(1.5rem, 6vw, 2rem); margin-bottom: 32px; }
+
+  .l-feat-grid,
+  .l-process-grid,
+  .l-about-grid { grid-template-columns: 1fr; gap: 14px; }
+
+  .l-feat, .l-proc-card, .l-about-card { padding: 22px 18px; }
+
+  /* ── CTA ─────────────────────────────────────────────────── */
+  .l-cta { padding: 60px 20px; }
+  .l-cta h2 { font-size: clamp(1.6rem, 6vw, 2.2rem); }
+  .l-btn-cta-white { width: 100%; max-width: 320px; }
+
+  /* ── FOOTER ─────────────────────────────────────────────── */
+  .l-footer {
+    flex-direction: column;
+    gap: 6px;
+    text-align: center;
+    padding: 16px 20px;
+    font-size: 0.72rem;
+  }
+
+  /* ══════════════════════════════════════════════════════════
+     APP INTERFACE
+     ══════════════════════════════════════════════════════════ */
+
+  /* ── APP HEADER ──────────────────────────────────────────── */
+  .a-header {
+    padding: 12px 16px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  /* Stack tabs below logo on very small screens */
+  .a-tabs {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    padding: 3px;
+  }
+  .a-tab {
+    padding: 7px 14px;
+    font-size: 0.82rem;
+    flex: 1;
+    text-align: center;
+  }
+  .a-api-status span:last-child { display: none; } /* hide "Model ready" text, keep dot */
+
+  /* ── APP MAIN ────────────────────────────────────────────── */
+  .a-main { padding: 16px; }
+
+  /* ── CARDS ───────────────────────────────────────────────── */
+  .a-card { padding: 20px 16px; border-radius: 12px; }
+  .a-card-title { font-size: 1.25rem; }
+
+  /* ── FORMS ───────────────────────────────────────────────── */
+  .a-form-row { grid-template-columns: 1fr; gap: 0; }
+  .a-fg { margin-bottom: 16px; }
+  .a-fg input, .a-fg select { font-size: 1rem; padding: 13px 14px; }
+
+  /* Make calculate button full-width on mobile */
+  .a-btn-calc { width: 100%; justify-content: center; padding: 14px; font-size: 1rem; }
+  .a-btn-ghost { width: 100%; justify-content: center; padding: 12px; }
+
+  /* ── PROFILE TOGGLE ──────────────────────────────────────── */
+  .profile-toggle { flex-direction: row; } /* keep side-by-side, just smaller */
+  .profile-btn { padding: 9px 10px; font-size: 0.82rem; }
+
+  /* ── SCORE RESULT ────────────────────────────────────────── */
+  .r-top { padding: 20px 16px; }
+  .r-score-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .r-meta-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px 16px;
+  }
+  .r-meta-val { font-size: 1.1rem; }
+
+  /* Results layout stacks vertically */
+  .r-bottom-grid { grid-template-columns: 1fr; gap: 14px; }
+  .r-why-card, .r-how-card { padding: 20px 16px; }
+  .r-why-title, .r-how-title { font-size: 1rem; flex-wrap: wrap; gap: 6px; }
+
+  /* ── SHAP factors ────────────────────────────────────────── */
+  .r-factor { padding: 12px 14px; }
+  .r-factor-header { flex-wrap: wrap; }
+  .r-factor-name { font-size: 0.74rem; }
+  .r-factor-exp { font-size: 0.78rem; }
+
+  /* ── WHAT-IF ─────────────────────────────────────────────── */
+  .a-whatif-layout { grid-template-columns: 1fr; gap: 14px; }
+
+  /* ── COMPARE ─────────────────────────────────────────────── */
+  .a-compare-cards { flex-direction: column; gap: 12px; }
+  .a-comp-card { min-width: unset; width: 100%; }
+  .a-compare-actions { flex-direction: column; gap: 10px; }
+  .compare-result-grid { flex-direction: column; }
+  .comp-res-card { min-width: unset; }
+
+  /* ── BENCHMARK ───────────────────────────────────────────── */
+  .bench-section .r-bench-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  /* ── APP FOOTER ──────────────────────────────────────────── */
+  .a-footer {
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 0.65rem;
+  }
+}
+
+/* ── Very small phones (≤ 380px) ────────────────────────────── */
+@media (max-width: 380px) {
+  .l-hero-title { font-size: 1.9rem; }
+  .a-tab { font-size: 0.75rem; padding: 6px 10px; }
+  .l-sample-stats { grid-template-columns: repeat(2, 1fr); }
+  .r-meta-grid { grid-template-columns: repeat(2, 1fr); }
+  .profile-btn { font-size: 0.78rem; padding: 8px 8px; }
+  .profile-icon { display: none; } /* hide emoji on tiny screens to save space */
+}
