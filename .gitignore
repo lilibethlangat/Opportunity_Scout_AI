@@ -30,8 +30,8 @@ MANIFEST
 # Ignore data we will not use
 Data_ignore/
 Data_pipeline/requirements.txt
-Data_pipeline/pipeline_index_main
-Data_pipeline/pipeline_index_main_gdp context
+Data_pipeline/pipeline_index_main.ipynb
+Data_pipeline/pipeline_index_main_gdp_context.ipynb
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
