@@ -3,12 +3,6 @@ predictor.py
 ------------
 Full prediction pipeline: live data → feature engineering → LightGBM → SHAP.
 
-Changes:
-  - Added user_type parameter ("entrepreneur" | "investor") to predict()
-  - user_type is passed to pipeline.run_live() for weighted scoring
-  - GDP context explanation added to every result (from static table + API fallback)
-  - Time-feature references removed from SHAP explanations and recommendations
-  - Score now reflects market conditions, not vintage year penalties
 """
 from __future__ import annotations
 import logging
@@ -23,7 +17,7 @@ from feature_engineer import VentureFeatureEngineer
 logger = logging.getLogger("predictor")
 
 
-# ── GDP Context Table (static lookup — 100+ country+year events) ──────────────
+# GDP Context Table (static lookup —> 100+ country+year events)
 
 GDP_CONTEXT_TABLE = {
     ("Latvia", 2009): "Latvia's GDP collapsed by 16% as the global financial crisis burst a credit-fuelled property bubble, triggering the worst recession in its post-Soviet history.",
@@ -126,7 +120,7 @@ def get_gdp_context(country: str, year: int, gdp_value: float) -> str:
     )
 
 
-# ── Score calibration ──────────────────────────────────────────────────────────
+# Score calibration 
 
 def calibrate_score(raw: float) -> dict:
     score = float(np.clip(raw, 0, 100))
@@ -137,7 +131,7 @@ def calibrate_score(raw: float) -> dict:
             "score_range": (round(score - 4, 2), round(score + 4, 2))}
 
 
-# ── Predictor ──────────────────────────────────────────────────────────────────
+# Predictor 
 
 class OpportunityPredictor:
     def __init__(self, model_path: str, reference_csv: str, ventures_csv: str):
@@ -275,7 +269,7 @@ class OpportunityPredictor:
         }
 
 
-# ── SHAP explanations ──────────────────────────────────────────────────────────
+# SHAP explanations 
 
 def _explain(name: str, val: float, ctx: dict) -> str:
     funding   = ctx.get("funding", 0)
@@ -420,9 +414,8 @@ def _explain(name: str, val: float, ctx: dict) -> str:
 
 
 def _build_shap_factors(feature_names: list, arr, ctx: dict) -> list:
-    # Exclude time-based features — they exist in the trained model's feature set
-    # but are not meaningful drivers we want to surface to users. The model was
-    # trained with founding year as a proxy for era; we surface market signals instead.
+    # Exclude time-based features
+
     _SUPPRESS = {"founded_year", "company_age", "pre_2010_flag", "post_2015_flag",
                  "years_to_2020", "age_sq", "age_log"}
     pairs = sorted(zip(feature_names, arr), key=lambda x: abs(x[1]), reverse=True)
@@ -436,7 +429,7 @@ def _build_shap_factors(feature_names: list, arr, ctx: dict) -> list:
     ][:10]
 
 
-# ── Recommendations ────────────────────────────────────────────────────────────
+# Recommendations
 
 def _build_recommendations(factors: list, ctx: dict) -> list:
     funding   = ctx.get("funding", 0)

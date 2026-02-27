@@ -1,17 +1,6 @@
 """
 pipeline.py — Live data aggregation engine for Opportunity Scout AI.
 
-Changes in v3:
-  - run_live() now accepts user_type ("entrepreneur" | "investor")
-  - Two weight profiles integrated from pipeline_opportunity_score_weights.ipynb:
-      WEIGHTS_ENTREPRENEUR: trend-first, funding ignored (0.00)
-      WEIGHTS_INVESTOR: funding-first, balanced market signals
-  - compute_opportunity_score() produces a 0-100 pipeline score
-    using the appropriate profile's weights
-  - result dict now includes: score, score_profile, user_type
-  - Cache key is scoped per user_type so both profiles are cached independently
-  - startup_density imputation added (median from CSV if not live)
-  - All other behaviour (collectors, fallback, quality scoring) unchanged
 """
 from __future__ import annotations
 import os, time, threading, logging
@@ -33,12 +22,12 @@ LIVE_FEATURES = [
     "reddit_density", "news_volume", "news_sentiment",
 ]
 
-# ── Weight Profiles (from pipeline_opportunity_score_weights.ipynb) ────────────
-#
+# Weight Profiles (from pipeline_opportunity_score_weights.ipynb) 
+
 # ENTREPRENEUR — "Is this market fertile enough to start in?"
 #   trend_slope is the strongest predictor; funding irrelevant at founding.
 #   startup_density is INVERTED (high = saturated = bad for new entrant).
-#
+
 # INVESTOR — "Has this company earned its score and is the market behind it?"
 #   log_funding first (other smart money already validated the space).
 #   startup_density is NOT inverted (high = proven market with exit ecosystem).
@@ -130,7 +119,7 @@ def compute_opportunity_score(signals: dict, user_type: str = "investor") -> flo
     return round(float(np.clip(score, 0, 100)), 2)
 
 
-# ── In-memory cache ────────────────────────────────────────────────────────────
+#  In-memory cache 
 _CACHE: dict = {}
 
 
@@ -138,7 +127,7 @@ def _cache_key(industry, country, year, user_type):
     return f"{industry}|{country}|{year}|{user_type}"
 
 
-# ── Rate limiter ───────────────────────────────────────────────────────────────
+# Rate limiter 
 class RateLimiter:
     def __init__(self, max_calls, period_seconds):
         self.max_calls = max_calls
@@ -169,14 +158,14 @@ _RL = {
 }
 
 
-# ── Base collector ─────────────────────────────────────────────────────────────
+# Base collector 
 class BaseCollector(ABC):
     @abstractmethod
     def collect(self, industry: str, country: str, year: int) -> dict:
         pass
 
 
-# ── CSV fallback ───────────────────────────────────────────────────────────────
+# CSV fallback 
 class VenturesCollector(BaseCollector):
     def __init__(self, filepath):
         self.df = pd.read_csv(filepath)
@@ -199,7 +188,7 @@ class VenturesCollector(BaseCollector):
         return {k: float(v) for k, v in row.items() if not np.isnan(v)}
 
 
-# ── Google Trends ──────────────────────────────────────────────────────────────
+#  Google Trends 
 class GoogleTrendsCollector(BaseCollector):
     CC = {
         "united states": "US", "kenya": "KE", "united kingdom": "GB", "india": "IN",
@@ -246,7 +235,7 @@ class GoogleTrendsCollector(BaseCollector):
             return {}
 
 
-# ── World Bank ─────────────────────────────────────────────────────────────────
+#  World Bank 
 class WorldBankCollector(BaseCollector):
     ISO = {
         "united states": "US", "kenya": "KE", "united kingdom": "GB", "india": "IN",
@@ -291,7 +280,7 @@ class WorldBankCollector(BaseCollector):
         return result
 
 
-# ── Reddit / PullPush ──────────────────────────────────────────────────────────
+#  Reddit / PullPush 
 class RedditCollector(BaseCollector):
     URL = "https://api.pullpush.io/reddit/search/submission/"
     HDR = {"User-Agent": "OpportunityScoutAI/1.0"}
@@ -354,7 +343,7 @@ class RedditCollector(BaseCollector):
             return {}
 
 
-# ── GDELT / BigQuery ───────────────────────────────────────────────────────────
+#  GDELT / BigQuery 
 class GDELTCollector(BaseCollector):
     CREDS   = os.getenv("GDELT_CREDENTIALS", "strong_gdelt.json")
     PROJECT = os.getenv("GDELT_PROJECT_ID",  "strong-augury-487515-u7")
@@ -440,7 +429,7 @@ class GDELTCollector(BaseCollector):
         return result
 
 
-# ── Signal validation ──────────────────────────────────────────────────────────
+#  Signal validation 
 def validate_signals(signals: dict):
     validated, issues = {}, {}
     for f in REQUIRED_FEATURES:
@@ -484,7 +473,7 @@ def score_data_quality(validated: dict, live_signals: dict) -> dict:
     return {"data_quality": q, "quality_label": label, "quality_breakdown": breakdown}
 
 
-# ── Aggregation engine ─────────────────────────────────────────────────────────
+#  Aggregation engine 
 class AggregationEngine:
     def __init__(self, ventures_path: str):
         self.fallback   = VenturesCollector(ventures_path)
