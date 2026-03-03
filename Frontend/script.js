@@ -108,9 +108,25 @@ async function loadDropdowns() {
   } catch(e) { console.warn('Dropdowns failed', e); }
 }
 
+// ── Year Dropdown ─────────────────────────────────────────────────
+function populateYearDropdowns() {
+  const years = [];
+  for (let y = 2030; y >= 2000; y--) years.push(y);
+  ['s-year', 'wi-year'].forEach(id => {
+    const el = $(id); if (!el) return;
+    years.forEach(y => {
+      const opt = document.createElement('option');
+      opt.value = y; opt.textContent = y;
+      if (y === 2019) opt.selected = true;
+      el.appendChild(opt);
+    });
+  });
+}
+
 // ── Init ──────────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', async () => {
   checkHealth();
+  populateYearDropdowns();
   await loadDropdowns();
   initCompare();
 
@@ -177,7 +193,7 @@ function prefillWhatIf() {
   if (note) note.style.display = 'block';
   if ($('wi-industry')) $('wi-industry').value = d.industry;
   if ($('wi-country'))  $('wi-country').value  = d.country;
-  $('wi-year').value    = d.year;
+  if ($('wi-year')) $('wi-year').value = d.year;
   $('wi-funding').value = d.funding;
   $('wi-fund-slider').value        = 0;
   $('wi-year-slider').value        = d.year;
@@ -240,9 +256,9 @@ function addCompareCard() {
     </div>
     <div class="a-form-row">
       <div class="a-fg"><label>YEAR</label>
-        <input type="number" id="${id}-year" value="2019" min="2000" max="2030"/></div>
+        <select id="${id}-year">${Array.from({length:31},(_,i)=>2030-i).map(y=>`<option value="${y}"${y===2019?' selected':''}>${y}</option>`).join('')}</select></div>
       <div class="a-fg"><label>FUNDING (USD)</label>
-        <input type="number" id="${id}-funding" value="500000" min="0"/></div>
+        <input type="number" id="${id}-funding" value="500000" min="0" step="10000"/></div>
     </div>`;
   $('compare-cards').appendChild(div);
 }

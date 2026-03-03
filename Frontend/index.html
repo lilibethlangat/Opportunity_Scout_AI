@@ -138,8 +138,8 @@
   </section>
 
   <footer class="l-footer">
-    <span>+ OPPORTUNITY SCOUT AI · Vicky · Kefa · Lydiah · Jeniffer · Lilibeth · CAPSTONE 2026</span>
-    
+    <span>+ OPPORTUNITY SCOUT AI · Vicky · Kefa · Lydiah · Jennifer · Lilibeth · CAPSTONE 2026</span>
+    <span>POWERED BY LIGHTGBM + SHAP</span>
   </footer>
 </div>
 
@@ -206,12 +206,12 @@
           </div>
           <div class="a-form-row">
             <div class="a-fg">
-              <label>FOUNDED YEAR <span class="field-hint">(any year — founding date does not penalise your score)</span></label>
-              <input type="number" id="s-year" value="2019" min="2000" max="2030"/>
+              <label>FOUNDED YEAR <span class="field-hint">(founding date does not penalise your score)</span></label>
+              <select id="s-year"></select>
             </div>
             <div class="a-fg">
               <label>TOTAL FUNDING (USD)</label>
-              <input type="number" id="s-funding" value="500000" min="0"/>
+              <input type="number" id="s-funding" value="500000" min="0" step="10000"/>
             </div>
           </div>
           <div class="a-fg" style="max-width:200px;">
@@ -258,11 +258,11 @@
             <div class="a-form-row">
               <div class="a-fg">
                 <label>FOUNDED YEAR</label>
-                <input type="number" id="wi-year" value="2019" min="2000" max="2030"/>
+                <select id="wi-year"></select>
               </div>
               <div class="a-fg">
                 <label>FUNDING (USD)</label>
-                <input type="number" id="wi-funding" value="0" min="0"/>
+                <input type="number" id="wi-funding" value="0" min="0" step="10000"/>
               </div>
             </div>
           </div>
@@ -324,6 +324,7 @@
 
   <footer class="a-footer">
     <span>+ OPPORTUNITY SCOUT AI · CAPSTONE 2026</span>
+    <span>POWERED BY LIGHTGBM + SHAP</span>
   </footer>
 </div>
 
